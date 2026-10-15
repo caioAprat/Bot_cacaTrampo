@@ -95,5 +95,27 @@
 "subcategoria": "Marketing Digital",
 "titulo": "Anúncios Google para conversão - site",
 "urgente": false
+},
+"791798": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Projeto EFD — Eficiência Fluxo–Deslocamento | Dados de Mercado B3 e API Cedro\n\nProcuro profissional com experiência comprovada em dados de mercado financeiro, especialmente na B3, para avaliar a viabilidade técnica e desenvolver uma prova de conceito de um indicador quantitativo para day trade.\n\nObjetivo do projeto\n\nO EFD (Eficiência Fluxo–Deslocamento) busca estudar a relação entre a agressão compradora e vendedora, a liquidez disponível no livro de ofertas e o deslocamento efetivo dos preços.\n\nO foco inicial será o mini-índice futuro (WIN) da B3.\n\nQueremos investigar situações em que ocorre grande volume de agressão, mas o preço apresenta pouco deslocamento, indicando possível absorção ou exaustão do movimento.\n\nEscopo inicial do trabalho\n\nAvaliar a documentação e os recursos disponíveis na API (Interface de Programação de Aplicações) da Cedro Technologies, especialmente Market Data Cloud e Socket Crystal.\n\nVerificar a disponibilidade de negócios realizados (Times & Trades), identificação do lado agressor, volume negociado e atualizações do livro de ofertas.\n\nIdentificar se os dados permitem distinguir negócios executados, ordens inseridas, alterações e cancelamentos.\n\nAvaliar a precisão, a sequência temporal e a latência dos eventos recebidos.\n\nPropor a arquitetura técnica necessária para calcular o EFD em tempo real.\n\nApós aprovação do diagnóstico, desenvolver uma pequena prova de conceito com dados reais do WIN, demonstrando a relação entre agressão, volume e deslocamento do preço.\n\nPerfil profissional desejado\n\nExperiência prática com dados de mercado da B3, APIs de market data, processamento de eventos em tempo real e livro de ofertas.\n\nConhecimento de C#, Python ou outra linguagem adequada ao projeto.\n\nExperiência anterior com Cedro Technologies, Nelogica ou fornecedores semelhantes será um diferencial.\n\nForma de contratação\n\nInicialmente, contratação remunerada por escopo fechado para diagnóstico técnico e avaliação de viabilidade.\n\nA prova de conceito será uma segunda etapa, com orçamento e prazo definidos após o diagnóstico.\n\nNão estamos contratando o desenvolvimento de um robô de negociação, estratégia automatizada de compra e venda ou plataforma completa nesta fase.\n\nNa proposta, informe:\n\nSua experiência com dados reais da B3 e livros de ofertas.\n\nQuais fornecedores ou APIs de mercado já utilizou.\n\nComo pretende realizar o diagnóstico técnico.\n\nPrazo e orçamento para essa primeira etapa.\n\nBuscamos um profissional com conhecimento específico em infraestrutura de dados financeiros, e não apenas experiência genérica em desenvolvimento de software.",
+"exclusivo": true,
+"habilidades": [],
+"id": "791798",
+"idade_min": 6,
+"liberado_em": 1792175077.0,
+"link": "https://www.99freelas.com.br/project/especialista-em-dados-de-mercado-b3-e-api-cedro-mdash-projeto-efd-791798",
+"nivel": "Intermediário",
+"nota_guardada": 7,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 3,
+"publicado": 1792088677.0,
+"subcategoria": "Outra - Web, Mobile & Software",
+"titulo": "Especialista em Dados de Mercado B3 e API Cedro — Projeto EFD",
+"urgente": false
 }
 }
