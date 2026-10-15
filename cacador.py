@@ -37,7 +37,8 @@ WORKANA = "https://www.workana.com/jobs?language=pt&category=it-programming"
 LISTAS_WORKANA = [WORKANA, WORKANA + "&page=2"]
 
 # IA grátis (Google Gemini, plano gratuito). Sem a chave, usa os modelos de texto.
-MODELOS_IA = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-flash-lite-latest"]
+MODELOS_IA = ["gemini-3.8-flash", "gemini-flash-latest", "gemini-3.5-flash",
+              "gemini-3.5-flash-lite", "gemini-flash-lite-latest"]
 
 MAX_ALERTAS_POR_RODADA = 8
 IDADE_MAX_HORAS = 12          # ignora projeto publicado há mais tempo que isso
@@ -515,7 +516,7 @@ Responda em JSON com duas chaves:
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0.6},
     }).encode("utf-8")
-    for modelo in MODELOS_IA:
+    for modelo in MODELOS_IA * 2:          # 2 voltas: a IA grátis às vezes fica ocupada
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent"
         req = urllib.request.Request(url, data=corpo, headers={"Content-Type": "application/json", "x-goog-api-key": chave})
         try:
@@ -526,7 +527,8 @@ Responda em JSON com duas chaves:
             if dados.get("proposta"):
                 return dados
         except urllib.error.HTTPError as erro:
-            print(f"[ia] {modelo}: {erro.code} {erro.read().decode('utf-8', 'replace')[:200]}")
+            print(f"[ia] {modelo}: {erro.code} {erro.read().decode('utf-8', 'replace')[:120]}")
+            time.sleep(2)
         except Exception as erro:
             print(f"[ia] {modelo}: {erro}")
     return None
