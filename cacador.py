@@ -35,7 +35,7 @@ LISTAS = [
 
 MAX_ALERTAS_POR_RODADA = 8
 IDADE_MAX_HORAS = 12          # ignora projeto publicado há mais tempo que isso
-NOTA_MINIMA = 4               # só avisa a partir desta nota (0 a 10)
+NOTA_MINIMA = 7               # só avisa a partir desta nota (0 a 10)
 DIAS_GUARDAR_VISTOS = 30
 
 # ---------------------------------------------------------------- serviços
@@ -84,7 +84,42 @@ FORA_DO_PERFIL = {
     "magento": 3, "sap": 3, "logo": 3, "logotipo": 4, "edicao de video": 4, "video": 2,
     "traducao": 4, "artigo": 2, "redacao": 3, "ligacoes": 4, "telemarketing": 4,
     "cold call": 4, "sdr": 4, "prospeccao": 2, "trafego pago": 3, "social media": 3,
+    "android": 2, "play store": 3, "google play": 3, "app store": 3, "woocommerce": 1,
 }
+
+# Se aparecer no título, o projeto é descartado na hora (não é programação)
+VETO_TITULO = [
+    "trafego", "marketing", "aquisicao de clientes", "geracao de leads", "leads", "anuncio",
+    "gestor de", "copywriter", "copywriting", "seo", "social media", "instagram", "tiktok",
+    "logo", "logotipo", "identidade visual", "design grafico", "ux", "ui/ux", "video",
+    "editor", "edicao", "fotografia", "traducao", "redacao", "artigo", "ligacoes",
+    "prospeccao", "vendedor", "vendas", "sdr", "cold call", "jogo", "game", "unity",
+    "play store", "google play", "app store", "android", "ios", "cripto", "sinais",
+]
+
+# O que você já sabe fazer: ganha bônus e aparece como "fácil pra você"
+FACIL_PRA_VOCE = [
+    "planilha", "excel", "google sheets", "apps script", "vba", "macro", "dashboard",
+    "bot", "chatbot", "whatsapp", "telegram", "automacao", "automatizar", "robo",
+    "landing page", "landing", "site institucional", "one page", "pagina de vendas",
+    "formulario", "relatorio automatico",
+]
+
+# Faixas de preço que EU estimei (não é dado de mercado verificado).
+# pequeno / médio / grande, em reais. Ajuste conforme fechar projetos de verdade.
+PRECOS = {
+    "planilhas": [(150, 400), (400, 1200), (1200, 3000)],
+    "automacao": [(300, 800), (800, 2500), (2500, 6000)],
+    "sistemas":  [(1500, 4000), (4000, 10000), (10000, 25000)],
+    "sites":     [(300, 900), (900, 2500), (2500, 6000)],
+}
+
+# Sinais de que o projeto é maior
+SINAIS_DE_PORTE = [
+    "login", "usuarios", "perfis", "painel", "dashboard", "integracao", "integrar", "api",
+    "pagamento", "assinatura", "relatorios", "banco de dados", "multi", "ia ", "inteligencia artificial",
+    "aplicativo", "app", "notificacoes", "agendamento", "estoque", "financeiro", "telas",
+]
 
 
 def sem_acento(texto):
@@ -119,8 +154,54 @@ def pontuar_servicos(projeto):
     return principal, pontos, penalidade
 
 
+def e_facil(projeto):
+    titulo = sem_acento(projeto["titulo"])
+    return any(conta(titulo, p) for p in FACIL_PRA_VOCE)
+
+
+def porte_do_projeto(projeto):
+    """0 = pequeno, 1 = médio, 2 = grande."""
+    texto = sem_acento(projeto["titulo"] + " " + projeto["descricao"])
+    sinais = sum(1 for s in SINAIS_DE_PORTE if conta(texto, s.strip()))
+    if len(projeto["descricao"]) > 1200:
+        sinais += 2
+    elif len(projeto["descricao"]) > 600:
+        sinais += 1
+    return 0 if sinais <= 2 else 1 if sinais <= 5 else 2
+
+
+def valor_citado(projeto):
+    """Valor em R$ que o próprio cliente escreveu na descrição, se tiver."""
+    valores = re.findall(r"R\$\s?(\d{1,3}(?:\.\d{3})*(?:,\d{2})?|\d+)", projeto["descricao"])
+    numeros = []
+    for v in valores:
+        n = float(v.replace(".", "").replace(",", "."))
+        if n >= 50:
+            numeros.append(n)
+    return numeros
+
+
+def reais(n):
+    return "R$ " + f"{n:,.0f}".replace(",", ".")
+
+
+def preco_do_projeto(projeto, servico, orcamento):
+    """Texto do preço: o que o cliente informou ou a minha estimativa."""
+    if orcamento and orcamento.lower() not in ("aberto", "não informado", "nao informado"):
+        return f"Orçamento do cliente: {orcamento}"
+    citados = valor_citado(projeto)
+    if citados:
+        return "Cliente citou: " + " / ".join(reais(n) for n in citados[:2])
+    minimo, maximo = PRECOS[servico][porte_do_projeto(projeto)]
+    return f"Estimativa: {reais(minimo)} a {reais(maximo)}"
+
+
 def nota_do_projeto(projeto):
     """Nota de 0 a 10 dizendo se vale a pena, com os motivos."""
+    titulo = sem_acento(projeto["titulo"])
+    if any(conta(titulo, v) for v in VETO_TITULO):
+        return 0, "sistemas", ["não é programação"]
+
     principal, pontos, penalidade = pontuar_servicos(projeto)
     encaixe = pontos[principal] - penalidade
     motivos = []
@@ -128,8 +209,11 @@ def nota_do_projeto(projeto):
     if encaixe <= 0:
         return 0, principal, ["fora do seu perfil"]
 
-    nota = min(encaixe, 12) / 12 * 5           # até 5 pontos pelo encaixe
+    nota = min(encaixe, 10) / 10 * 6           # até 6 pontos pelo encaixe
     motivos.append(f"encaixa em {SERVICOS[principal]['nome'].lower()}")
+
+    if e_facil(projeto):
+        nota += 1.5; motivos.append("você já sabe fazer")
 
     p = projeto["propostas"]
     if p is not None:
@@ -361,8 +445,9 @@ def montar_alerta(projeto, nota, servico, motivos, orcamento):
         "",
         f"<b>{e(projeto['titulo'])}</b>",
         "",
-        f"💰 {e(orcamento)}   📨 {projeto['propostas'] if projeto['propostas'] is not None else '?'} propostas",
-        f"🕒 {tempo_atras(projeto['idade_min'])}   🎯 {e(projeto['nivel'])}",
+        f"💰 {e(preco_do_projeto(projeto, servico, orcamento))}",
+        f"{'🟢 Fácil pra você' if e_facil(projeto) else '🟡 Vai precisar aprender um pouco'} · porte {['pequeno', 'médio', 'grande'][porte_do_projeto(projeto)]}",
+        f"📨 {projeto['propostas'] if projeto['propostas'] is not None else '?'} propostas   🕒 {tempo_atras(projeto['idade_min'])}",
         f"👤 {e(cliente)}",
     ]
     if projeto["habilidades"]:

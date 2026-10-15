@@ -17,9 +17,12 @@ RODAR NA HORA PELA NUVEM
   GitHub > repositório cacador-clientes > aba Actions > "Caçador de clientes" > Run workflow
 
 AJUSTES (no começo do cacador.py)
-  NOTA_MINIMA            nota mínima para avisar (hoje: 4)
+  NOTA_MINIMA            nota mínima para avisar (hoje: 7)
   IDADE_MAX_HORAS        ignora projeto mais velho que isso (hoje: 12h)
   MAX_ALERTAS_POR_RODADA no máximo quantos avisos por vez (hoje: 8)
   SERVICOS               palavras que contam ponto para cada serviço seu
   FORA_DO_PERFIL         palavras que tiram ponto
+  VETO_TITULO            palavras no título que descartam o projeto (marketing, design...)
+  FACIL_PRA_VOCE         o que você já sabe fazer (ganha bônus)
+  PRECOS                 faixas de preço estimadas por serviço e porte
   EXPERIENCIA / COMO_FARIA / PERGUNTA   textos usados no rascunho da proposta
