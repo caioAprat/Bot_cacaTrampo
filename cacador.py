@@ -20,6 +20,7 @@ from pathlib import Path
 
 PASTA = Path(__file__).parent
 ARQ_VISTOS = PASTA / "vistos.json"
+ARQ_AGENDA = PASTA / "agenda.json"   # projetos exclusivos esperando liberar
 BASE = "https://www.99freelas.com.br"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36"
 
@@ -44,6 +45,12 @@ MAX_ALERTAS_POR_RODADA = 8
 IDADE_MAX_HORAS = 12          # ignora projeto publicado há mais tempo que isso
 NOTA_MINIMA = 7               # só avisa a partir desta nota (0 a 10)
 DIAS_GUARDAR_VISTOS = 30
+
+# No 99Freelas, projeto novo fica 24h só para quem paga o Premium.
+# Sem Premium (False), o robô guarda os bons e avisa quando liberam para todos.
+PREMIUM_99FREELAS = False
+HORAS_EXCLUSIVO = 24
+MAX_PROPOSTAS_LIBERADO = 100     # depois de liberado, ignora se já tiver mais que isso
 
 # ---------------------------------------------------------------- serviços
 
@@ -103,6 +110,7 @@ VETO_TITULO = [
     "prospeccao", "vendedor", "vendas", "sdr", "cold call", "jogo", "game", "unity",
     "play store", "google play", "app store", "android", "ios", "cripto", "sinais",
     "redes sociais", "marketplaces", "gestao de marketplace", "atendente", "assistente virtual",
+    "iot", "esp32", "arduino", "hardware", "eletronica", "hospedagem", "migracao de servidor",
 ]
 
 # O que você já sabe fazer: ganha bônus e aparece como "fácil pra você"
@@ -328,6 +336,7 @@ def ler_lista(caminho):
             "cliente_avaliacoes": int(m_aval.group(1)) if m_aval else 0,
             "urgente": "flag_project_urgent" in bloco,
             "plataforma": "99Freelas",
+            "exclusivo": "flat_project_exclusive" in bloco,
             "orcamento": None,
             "pagamento_verificado": False,
         })
@@ -384,6 +393,7 @@ def ler_workana(url):
             "cliente_avaliacoes": 0,
             "urgente": bool(r.get("isUrgent")),
             "plataforma": "Workana",
+            "exclusivo": False,
             "orcamento": limpar(r.get("budget", "")) or None,
             "pagamento_verificado": bool(r.get("hasVerifiedPaymentMethod")),
         })
@@ -404,7 +414,11 @@ def cotacao_dolar():
 
 
 def ler_orcamento(projeto):
+    """Lê a página do projeto: devolve o orçamento e atualiza o nº de propostas."""
     pagina = baixar(projeto["link"])
+    m_prop = re.search(r"<th>Propostas:</th>\s*<td>\s*(\d+)", pagina)
+    if m_prop:
+        projeto["propostas"] = int(m_prop.group(1))
     m = re.search(r"<th>Or(?:ç|&ccedil;)amento:</th>\s*<td>(.*?)</td>", pagina, re.S)
     return limpar(m.group(1)) if m else "não informado"
 
@@ -591,6 +605,8 @@ def tempo_atras(minutos):
 def montar_alerta(projeto, nota, servico, motivos, orcamento, resumo=None):
     """A 1ª e a 2ª linha são o que aparece no pop-up do iPhone: precisam dizer tudo."""
     chamas = "🔥" * (3 if nota >= 9 else 2 if nota >= 8 else 1)
+    if projeto.get("liberado"):
+        chamas = "🔓" + chamas
     facil = "🟢 Fácil" if e_facil(projeto) else "🟡 Aprender"
     preco = preco_do_projeto(projeto, servico, orcamento)
     propostas = projeto["propostas"] if projeto["propostas"] is not None else "?"
@@ -647,8 +663,19 @@ def salvar_vistos(vistos):
     ARQ_VISTOS.write_text(json.dumps(vistos, indent=0, sort_keys=True), encoding="utf-8")
 
 
+def carregar_agenda():
+    if ARQ_AGENDA.exists():
+        return json.loads(ARQ_AGENDA.read_text(encoding="utf-8"))
+    return {}
+
+
+def salvar_agenda(agenda):
+    ARQ_AGENDA.write_text(json.dumps(agenda, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+
+
 def rodar(teste=False):
     vistos = carregar_vistos()
+    agenda = carregar_agenda()
     primeira_vez = not vistos
     projetos = {}
     for caminho in LISTAS:
@@ -669,8 +696,33 @@ def rodar(teste=False):
         if p["idade_min"] is None or p["idade_min"] > IDADE_MAX_HORAS * 60:
             continue
         nota, servico, motivos = nota_do_projeto(p)
-        if nota >= NOTA_MINIMA:
-            candidatos.append((nota, p, servico, motivos))
+        if nota < NOTA_MINIMA:
+            continue
+        if p["exclusivo"] and not PREMIUM_99FREELAS:
+            # Ainda não dá para mandar proposta: guarda para avisar quando liberar
+            p["liberado_em"] = p["publicado"] + HORAS_EXCLUSIVO * 3600
+            p["nota_guardada"] = nota
+            agenda[p["id"]] = p
+            print(f"[agenda] {p['titulo'][:60]} (nota {nota})")
+            continue
+        candidatos.append((nota, p, servico, motivos))
+
+    # Exclusivos que acabaram de liberar para todos
+    agora = time.time()
+    for id_, p in list(agenda.items()):
+        if agora < p["liberado_em"]:
+            continue
+        del agenda[id_]
+        if agora > p["liberado_em"] + 12 * 3600:
+            continue                                  # liberou faz tempo, perdeu a graça
+        p["idade_min"] = round((agora - p["publicado"]) / 60)
+        p["orcamento"] = ler_orcamento(p)             # também atualiza as propostas
+        if (p["propostas"] or 0) > MAX_PROPOSTAS_LIBERADO:
+            continue
+        p["liberado"] = True
+        _, servico, motivos = nota_do_projeto(p)
+        motivos = ["liberado agora para todos"] + [m for m in motivos if m != "concorrência alta"]
+        candidatos.append((p["nota_guardada"], p, servico, motivos))
 
     candidatos.sort(key=lambda c: (-c[0], c[1]["idade_min"] or 0))
     candidatos = candidatos[:MAX_ALERTAS_POR_RODADA]
@@ -695,6 +747,7 @@ def rodar(teste=False):
 
     if not teste:
         salvar_vistos(vistos)
+        salvar_agenda(agenda)
 
 
 def descobrir_chat_id():

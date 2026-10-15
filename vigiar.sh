@@ -13,7 +13,7 @@ while [ "$(date +%s)" -lt "$FIM" ]; do
   if [ "$HORA" -ge 7 ] && [ "$HORA" -lt 23 ]; then
     echo "=== $(TZ=America/Sao_Paulo date '+%d/%m %H:%M')"
     python cacador.py || echo "[aviso] a rodada falhou, tento de novo daqui a 10 min"
-    git add vistos.json
+    git add vistos.json agenda.json
     if ! git diff --cached --quiet; then
       git commit -q -m "vistos"
       git pull -q --rebase origin main && git push -q || echo "[aviso] não consegui salvar os vistos"
