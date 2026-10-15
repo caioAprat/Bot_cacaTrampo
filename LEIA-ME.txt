@@ -28,3 +28,8 @@ AJUSTES (no começo do cacador.py)
   FACIL_PRA_VOCE         o que você já sabe fazer (ganha bônus)
   PRECOS                 faixas de preço estimadas por serviço e porte
   EXPERIENCIA / COMO_FARIA / PERGUNTA   textos usados no rascunho da proposta
+
+99FREELAS SEM PREMIUM
+  Projeto novo fica 24h exclusivo para quem paga o Premium. O robô guarda os bons
+  (agenda.json) e avisa com 🔓 quando liberam para todos. Se assinar o Premium,
+  mude PREMIUM_99FREELAS para True no cacador.py.

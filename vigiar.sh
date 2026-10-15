@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Roda o caçador a cada 10 min, das 7h às 23h (Brasília), por até 5h40.
-# Depois de cada rodada, guarda os projetos já vistos no repositório.
+# Depois de cada rodada, guarda os projetos já vistos (e a agenda dos exclusivos do 99Freelas).
 
 DURACAO=$((340 * 60))
 FIM=$(( $(date +%s) + DURACAO ))
