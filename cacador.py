@@ -1,4 +1,4 @@
-"""Caçador de clientes: vigia o 99Freelas e avisa no Telegram com rascunho de proposta.
+"""Caçador de clientes: vigia o 99Freelas e o Workana e avisa no Telegram com rascunho de proposta.
 
 Uso:
   python cacador.py             roda uma vez (é o que a nuvem faz a cada 20 min)
@@ -32,6 +32,12 @@ LISTAS = [
     "/projects?categoria=suporte-administrativo",
     "/projects",
 ]
+
+WORKANA = "https://www.workana.com/jobs?language=pt&category=it-programming"
+LISTAS_WORKANA = [WORKANA, WORKANA + "&page=2"]
+
+# IA grátis (Google Gemini, plano gratuito). Sem a chave, usa os modelos de texto.
+MODELOS_IA = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-flash-lite-latest"]
 
 MAX_ALERTAS_POR_RODADA = 8
 IDADE_MAX_HORAS = 12          # ignora projeto publicado há mais tempo que isso
@@ -188,7 +194,18 @@ def reais(n):
 def preco_do_projeto(projeto, servico, orcamento):
     """Texto do preço: o que o cliente informou ou a minha estimativa."""
     if orcamento and orcamento.lower() not in ("aberto", "não informado", "nao informado"):
-        return f"Orçamento do cliente: {orcamento}"
+        if "USD" in orcamento and cotacao_dolar():
+            numeros = [float(n.replace(".", "").replace(",", ".")) for n in re.findall(r"\d[\d.,]*\d|\d", orcamento)]
+            if numeros:
+                em_reais = " a ".join(reais(n * cotacao_dolar()) for n in numeros)
+                if orcamento.lower().startswith("menos"):
+                    em_reais = "menos de " + em_reais
+                elif orcamento.lower().startswith("mais"):
+                    em_reais = "mais de " + em_reais
+                if "hora" in orcamento.lower():
+                    em_reais += " por hora"
+                return f"Cliente: {orcamento} (≈ {em_reais})"
+        return f"Cliente: {orcamento}"
     citados = valor_citado(projeto)
     if citados:
         return "Cliente citou: " + " / ".join(reais(n) for n in citados[:2])
@@ -238,6 +255,9 @@ def nota_do_projeto(projeto):
 
     if projeto["urgente"]:
         nota += 0.5; motivos.append("urgente")
+
+    if projeto["pagamento_verificado"]:
+        nota += 0.5; motivos.append("pagamento verificado")
 
     return max(0, min(10, round(nota))), principal, motivos
 
@@ -305,8 +325,80 @@ def ler_lista(caminho):
             "cliente_nota": float(m_nota.group(1)) if m_nota else None,
             "cliente_avaliacoes": int(m_aval.group(1)) if m_aval else 0,
             "urgente": "flag_project_urgent" in bloco,
+            "plataforma": "99Freelas",
+            "orcamento": None,
+            "pagamento_verificado": False,
         })
     return projetos
+
+
+def idade_workana(texto):
+    """'há 21 minutos', 'Há quase uma hora', 'há 2 horas', 'há 1 dia' -> minutos."""
+    t = sem_acento(texto).replace("publicado:", "").strip()
+    if "agora" in t or "segundo" in t:
+        return 0
+    if "quase uma hora" in t:
+        return 55
+    m = re.search(r"(\d+|uma|um)\s+(minuto|hora|dia|semana|mes)", t)
+    if not m:
+        return None
+    n = 1 if m.group(1) in ("um", "uma") else int(m.group(1))
+    return n * {"minuto": 1, "hora": 60, "dia": 1440, "semana": 10080, "mes": 43200}[m.group(2)]
+
+
+def ler_workana(url):
+    pagina = baixar(url)
+    m = re.search(r":results-initials='([^']+)'", pagina)
+    if not m:
+        print(f"[aviso] Workana sem resultados em {url}")
+        return []
+    try:
+        dados = json.loads(html.unescape(m.group(1)))
+    except ValueError:
+        return []
+    projetos = []
+    for r in dados.get("results", []):
+        m_tit = re.search(r'<span title="([^"]+)"', r.get("title", ""))
+        titulo = limpar(m_tit.group(1)) if m_tit else limpar(r.get("title", ""))
+        descricao = limpar(r.get("description", "")).split("Categoria:")[0].strip()
+        m_prop = re.search(r"(\d+)", r.get("totalBids", ""))
+        try:
+            nota_cliente = float((r.get("rating") or {}).get("value") or 0) or None
+        except ValueError:
+            nota_cliente = None
+        projetos.append({
+            "id": "wk:" + r["slug"],
+            "titulo": titulo,
+            "link": "https://www.workana.com/job/" + r["slug"],
+            "subcategoria": "",
+            "nivel": "",
+            "publicado": None,
+            "idade_min": idade_workana(r.get("postedDate", "")),
+            "propostas": int(m_prop.group(1)) if m_prop else None,
+            "descricao": descricao,
+            "habilidades": [h.get("anchorText", "") for h in r.get("skills", [])],
+            "cliente": r.get("authorName", ""),
+            "cliente_nota": nota_cliente,
+            "cliente_avaliacoes": 0,
+            "urgente": bool(r.get("isUrgent")),
+            "plataforma": "Workana",
+            "orcamento": limpar(r.get("budget", "")) or None,
+            "pagamento_verificado": bool(r.get("hasVerifiedPaymentMethod")),
+        })
+    return projetos
+
+
+_cotacao = {}
+
+
+def cotacao_dolar():
+    if "usd" not in _cotacao:
+        try:
+            dados = json.loads(baixar("https://economia.awesomeapi.com.br/json/last/USD-BRL", tentativas=2))
+            _cotacao["usd"] = float(dados["USDBRL"]["bid"])
+        except Exception:
+            _cotacao["usd"] = None
+    return _cotacao["usd"]
 
 
 def ler_orcamento(projeto):
@@ -362,6 +454,8 @@ PERGUNTA = {
 
 def montar_proposta(projeto, servico):
     nome = projeto["cliente"].split(" ")[0] if projeto["cliente"] else ""
+    if nome.endswith(".") or len(nome) <= 2:   # nome abreviado, ex.: "C. M."
+        nome = ""
     saudacao = f"Olá, {nome}! Tudo bem?" if nome else "Olá! Tudo bem?"
     passos = "\n".join(f"{i}. {p[0].upper() + p[1:]};" for i, p in enumerate(COMO_FARIA[servico], 1))
     passos = passos[:-1] + "."
@@ -374,6 +468,67 @@ def montar_proposta(projeto, servico):
         f"Fico à disposição para conversarmos.\n"
         f"Abraço,\nCaio"
     )
+
+
+SOBRE_O_CAIO = """
+- Sistema web sob medida de abertura e acompanhamento de chamados (Next.js + Supabase), com login por perfil,
+  painel, histórico e anexos, publicado na nuvem e acessível pelo celular.
+- Automação da planilha de operação de uma transportadora de containers (Google Sheets + Apps Script):
+  documentos em PDF com um clique, integração entre planilhas, correção de travamentos em horário de pico.
+- Robô em Python que entra num sistema web, baixa o relatório do dia, gera imagens com indicadores e envia
+  por e-mail sozinho, em horário agendado.
+- Robô que vigia sites e manda alertas no Telegram.
+- Trabalha com IA para entregar rápido.
+"""
+
+
+def gerar_com_ia(projeto, servico):
+    """Pede ao Gemini (grátis) um resumo e a proposta. Devolve None se não der."""
+    chave = env("GEMINI_API_KEY")
+    if not chave:
+        return None
+    prompt = f"""Você ajuda o Caio, freelancer brasileiro, a responder projetos em plataformas de freela.
+
+O que o Caio já fez de verdade (use só isto como experiência, nunca invente outras):
+{SOBRE_O_CAIO}
+
+Projeto ({projeto['plataforma']}):
+Título: {projeto['titulo']}
+Cliente: {projeto['cliente'] or 'não informado'}
+Habilidades pedidas: {', '.join(projeto['habilidades']) or 'não informado'}
+Descrição:
+{projeto['descricao'][:3000]}
+
+Responda em JSON com duas chaves:
+"resumo": uma frase curta e simples (máx. 20 palavras) explicando o que o cliente quer, para alguém leigo.
+"proposta": a proposta em português do Brasil, de 90 a 160 palavras, tom profissional e próximo, que:
+  - cumprimenta pelo primeiro nome do cliente, se houver (ignore abreviações como "R. A. B.");
+  - mostra que leu o projeto, citando 1 ou 2 detalhes específicos dele;
+  - cita a experiência do Caio mais parecida com o projeto (só as reais acima);
+  - explica em 2 ou 3 passos curtos como ele faria;
+  - faz 1 pergunta específica que o projeto não respondeu;
+  - não fala preço nem prazo, não usa emojis, não promete nada que não está no projeto;
+  - termina com "Abraço,\nCaio".
+"""
+    corpo = json.dumps({
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.6},
+    }).encode("utf-8")
+    for modelo in MODELOS_IA:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent"
+        req = urllib.request.Request(url, data=corpo, headers={"Content-Type": "application/json", "x-goog-api-key": chave})
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                resposta = json.loads(r.read())
+            texto = resposta["candidates"][0]["content"]["parts"][0]["text"]
+            dados = json.loads(texto)
+            if dados.get("proposta"):
+                return dados
+        except urllib.error.HTTPError as erro:
+            print(f"[ia] {modelo}: {erro.code} {erro.read().decode('utf-8', 'replace')[:200]}")
+        except Exception as erro:
+            print(f"[ia] {modelo}: {erro}")
+    return None
 
 
 # ---------------------------------------------------------------- telegram
@@ -405,12 +560,13 @@ def telegram(metodo, dados):
         return None
 
 
-def enviar(texto, botao=None):
+def enviar(texto, botao=None, silencioso=False):
     dados = {
         "chat_id": env("TELEGRAM_CHAT_ID"),
         "text": texto,
         "parse_mode": "HTML",
         "disable_web_page_preview": True,
+        "disable_notification": silencioso,
     }
     if botao:
         dados["reply_markup"] = {"inline_keyboard": [[{"text": botao[0], "url": botao[1]}]]}
@@ -429,29 +585,39 @@ def tempo_atras(minutos):
     return f"há {minutos // 60}h{minutos % 60:02d}"
 
 
-def montar_alerta(projeto, nota, servico, motivos, orcamento):
-    chamas = "🔥" * (3 if nota >= 8 else 2 if nota >= 6 else 1)
-    rotulo = "Vale muito a pena" if nota >= 8 else "Vale a pena" if nota >= 6 else "Pode valer"
+def montar_alerta(projeto, nota, servico, motivos, orcamento, resumo=None):
+    """A 1ª e a 2ª linha são o que aparece no pop-up do iPhone: precisam dizer tudo."""
+    chamas = "🔥" * (3 if nota >= 9 else 2 if nota >= 8 else 1)
+    facil = "🟢 Fácil" if e_facil(projeto) else "🟡 Aprender"
+    preco = preco_do_projeto(projeto, servico, orcamento)
+    propostas = projeto["propostas"] if projeto["propostas"] is not None else "?"
+
     cliente = projeto["cliente"] or "Cliente"
     if projeto["cliente_avaliacoes"]:
         cliente += f" · ⭐ {projeto['cliente_nota']:.1f} ({projeto['cliente_avaliacoes']} aval.)"
+    elif projeto["cliente_nota"]:
+        cliente += f" · ⭐ {projeto['cliente_nota']:.1f}"
     else:
         cliente += " · sem avaliações"
+    if projeto["pagamento_verificado"]:
+        cliente += " · 💳 verificado"
+
     descricao = projeto["descricao"]
-    if len(descricao) > 420:
-        descricao = descricao[:420].rsplit(" ", 1)[0] + "…"
+    if len(descricao) > 300:
+        descricao = descricao[:300].rsplit(" ", 1)[0] + "…"
+
     linhas = [
-        f"{chamas} <b>{nota}/10 · {rotulo}</b>",
+        f"{chamas} <b>{nota}/10 · {e(projeto['titulo'])}</b>",
+        f"{facil} · 📨 {propostas} propostas · {tempo_atras(projeto['idade_min'])}",
         "",
-        f"<b>{e(projeto['titulo'])}</b>",
-        "",
-        f"💰 {e(preco_do_projeto(projeto, servico, orcamento))}",
-        f"{'🟢 Fácil pra você' if e_facil(projeto) else '🟡 Vai precisar aprender um pouco'} · porte {['pequeno', 'médio', 'grande'][porte_do_projeto(projeto)]}",
-        f"📨 {projeto['propostas'] if projeto['propostas'] is not None else '?'} propostas   🕒 {tempo_atras(projeto['idade_min'])}",
+        f"💰 {e(preco)}",
+        f"📍 {projeto['plataforma']} · porte {['pequeno', 'médio', 'grande'][porte_do_projeto(projeto)]}",
         f"👤 {e(cliente)}",
     ]
     if projeto["habilidades"]:
         linhas.append(f"🏷 {e(', '.join(projeto['habilidades'][:5]))}")
+    if resumo:
+        linhas += ["", f"🧠 <b>Em resumo:</b> {e(resumo)}"]
     linhas += ["", f"<i>{e(descricao)}</i>", "", f"💡 {e(', '.join(motivos))}"]
     return "\n".join(linhas)
 
@@ -478,6 +644,10 @@ def rodar(teste=False):
         for p in ler_lista(caminho):
             projetos.setdefault(p["id"], p)
         time.sleep(1.5)
+    for url in LISTAS_WORKANA:
+        for p in ler_workana(url):
+            projetos.setdefault(p["id"], p)
+        time.sleep(1.5)
     print(f"{len(projetos)} projetos lidos.")
 
     candidatos = []
@@ -485,7 +655,7 @@ def rodar(teste=False):
         if p["id"] in vistos and not teste:
             continue
         vistos[p["id"]] = time.time()
-        if p["idade_min"] is not None and p["idade_min"] > IDADE_MAX_HORAS * 60:
+        if p["idade_min"] is None or p["idade_min"] > IDADE_MAX_HORAS * 60:
             continue
         nota, servico, motivos = nota_do_projeto(p)
         if nota >= NOTA_MINIMA:
@@ -496,17 +666,20 @@ def rodar(teste=False):
     print(f"{len(candidatos)} projetos com a sua cara.")
 
     if primeira_vez and not teste:
-        enviar("🎯 <b>Caçador de clientes ligado!</b>\nVou te avisar aqui sempre que aparecer projeto com a sua cara no 99Freelas.")
+        enviar("🎯 <b>Caçador de clientes ligado!</b>\nVou te avisar aqui sempre que aparecer projeto com a sua cara no 99Freelas e no Workana.")
 
     for nota, p, servico, motivos in candidatos:
-        orcamento = ler_orcamento(p)
-        alerta = montar_alerta(p, nota, servico, motivos, orcamento)
-        proposta = montar_proposta(p, servico)
+        orcamento = p["orcamento"] or ler_orcamento(p)
+        ia = gerar_com_ia(p, servico)
+        proposta = ia["proposta"] if ia else montar_proposta(p, servico)
+        alerta = montar_alerta(p, nota, servico, motivos, orcamento, ia.get("resumo") if ia else None)
+        autor = "✨ escrita pela IA" if ia else "modelo pronto"
         if teste:
-            print("\n" + "=" * 60 + "\n" + re.sub(r"<[^>]+>", "", alerta) + "\n\n--- PROPOSTA ---\n" + proposta)
+            print("\n" + "=" * 60 + "\n" + re.sub(r"<[^>]+>", "", alerta) + f"\n\n--- PROPOSTA ({autor}) ---\n" + proposta)
             continue
-        enviar(alerta, botao=("Abrir no 99Freelas", p["link"]))
-        enviar("✍️ <b>Rascunho da proposta</b> (toque no texto para copiar)\n\n<pre>" + e(proposta) + "</pre>")
+        enviar(alerta, botao=(f"Abrir no {p['plataforma']}", p["link"]))
+        enviar(f"✍️ <b>Rascunho da proposta</b> ({autor}, toque no texto para copiar)\n\n<pre>" + e(proposta) + "</pre>",
+               silencioso=True)
         time.sleep(1)
 
     if not teste:
