@@ -591,6 +591,10 @@ def montar_alerta(projeto, nota, servico, motivos, orcamento, resumo=None):
     facil = "🟢 Fácil" if e_facil(projeto) else "🟡 Aprender"
     preco = preco_do_projeto(projeto, servico, orcamento)
     propostas = projeto["propostas"] if projeto["propostas"] is not None else "?"
+    valores = re.findall(r"R\$ [\d.]+", preco)
+    preco_curto = "–".join(valores[:2]) if valores else "a combinar"
+    if "por hora" in preco:
+        preco_curto += "/h"
 
     cliente = projeto["cliente"] or "Cliente"
     if projeto["cliente_avaliacoes"]:
@@ -608,7 +612,7 @@ def montar_alerta(projeto, nota, servico, motivos, orcamento, resumo=None):
 
     linhas = [
         f"{chamas} <b>{nota}/10 · {e(projeto['titulo'])}</b>",
-        f"{facil} · 📨 {propostas} propostas · {tempo_atras(projeto['idade_min'])}",
+        f"{facil} · 💰 {e(preco_curto)} · 📨 {propostas} · {tempo_atras(projeto['idade_min'])}",
         "",
         f"💰 {e(preco)}",
         f"📍 {projeto['plataforma']} · porte {['pequeno', 'médio', 'grande'][porte_do_projeto(projeto)]}",
