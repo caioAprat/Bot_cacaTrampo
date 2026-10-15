@@ -14,7 +14,7 @@ COMANDOS (rodar dentro da pasta C:\Bot.ideias\cacador-clientes)
   python cacador.py             roda de verdade uma vez (manda no Telegram)
 
 RODAR NA HORA PELA NUVEM
-  GitHub > repositório cacador-clientes > aba Actions > "Caçador de clientes" > Run workflow
+  GitHub > repositório Bot_cacaTrampo > aba Actions > "Caçador de clientes" > Run workflow
 
 AJUSTES (no começo do cacador.py)
   NOTA_MINIMA            nota mínima para avisar (hoje: 7)
