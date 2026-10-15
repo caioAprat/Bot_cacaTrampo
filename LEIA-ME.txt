@@ -1,0 +1,25 @@
+CAÇADOR DE CLIENTES
+===================
+
+O que faz: a cada 20 minutos (das 7h às 23h) lê os projetos novos do 99Freelas,
+dá uma nota de 0 a 10 para cada um e manda no seu Telegram os que têm a sua cara,
+junto com um rascunho de proposta pronto para copiar.
+
+Roda na nuvem (GitHub Actions), de graça. Não precisa deixar o notebook ligado.
+
+COMANDOS (rodar dentro da pasta C:\Bot.ideias\cacador-clientes)
+  python cacador.py --teste     mostra na tela o que ele mandaria agora (não envia nada)
+  python cacador.py --ping      manda uma mensagem de teste para o seu Telegram
+  python cacador.py --chat-id   descobre o seu chat_id (só na configuração)
+  python cacador.py             roda de verdade uma vez (manda no Telegram)
+
+RODAR NA HORA PELA NUVEM
+  GitHub > repositório cacador-clientes > aba Actions > "Caçador de clientes" > Run workflow
+
+AJUSTES (no começo do cacador.py)
+  NOTA_MINIMA            nota mínima para avisar (hoje: 4)
+  IDADE_MAX_HORAS        ignora projeto mais velho que isso (hoje: 12h)
+  MAX_ALERTAS_POR_RODADA no máximo quantos avisos por vez (hoje: 8)
+  SERVICOS               palavras que contam ponto para cada serviço seu
+  FORA_DO_PERFIL         palavras que tiram ponto
+  EXPERIENCIA / COMO_FARIA / PERGUNTA   textos usados no rascunho da proposta
