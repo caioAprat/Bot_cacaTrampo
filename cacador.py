@@ -101,6 +101,7 @@ VETO_TITULO = [
     "editor", "edicao", "fotografia", "traducao", "redacao", "artigo", "ligacoes",
     "prospeccao", "vendedor", "vendas", "sdr", "cold call", "jogo", "game", "unity",
     "play store", "google play", "app store", "android", "ios", "cripto", "sinais",
+    "redes sociais", "marketplaces", "gestao de marketplace", "atendente", "assistente virtual",
 ]
 
 # O que você já sabe fazer: ganha bônus e aparece como "fácil pra você"
@@ -593,6 +594,10 @@ def montar_alerta(projeto, nota, servico, motivos, orcamento, resumo=None):
     propostas = projeto["propostas"] if projeto["propostas"] is not None else "?"
     valores = re.findall(r"R\$ [\d.]+", preco)
     preco_curto = "–".join(valores[:2]) if valores else "a combinar"
+    if "menos de" in preco:
+        preco_curto = "até " + preco_curto
+    elif "mais de" in preco:
+        preco_curto = "+ de " + preco_curto
     if "por hora" in preco:
         preco_curto += "/h"
 
