@@ -1,23 +1,29 @@
 name: Caçador de clientes
 
+# Cada rodada fica vigiando por ~5h40 (a cada 10 min, das 7h às 23h de Brasília)
+# e, ao terminar, liga a próxima rodada sozinha. O agendamento abaixo é só reserva,
+# caso essa corrente se quebre (o agendamento do GitHub costuma atrasar ou pular).
 on:
   schedule:
-    # A cada 10 min (minutos 3, 13, 23...), das 7h às 23h (Brasília = UTC-3).
-    # Evita o minuto 00, quando o GitHub fica sobrecarregado e pula agendamentos.
-    - cron: "3-59/10 10-23,0-1 * * *"
-  workflow_dispatch: # botão "Run workflow" para rodar na hora
+    - cron: "17 10,16,22 * * *"
+  push:
+    branches: [main]
+    paths: ["cacador.py", "vigiar.sh", ".github/workflows/**"]
+  workflow_dispatch: # botão "Run workflow" para ligar na hora
 
 permissions:
   contents: write
+  actions: write
 
+# Só existe uma rodada por vez: a mais nova substitui a anterior.
 concurrency:
   group: cacador
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   cacar:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v5
 
@@ -25,16 +31,15 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Procurar projetos
+      - name: Vigiar projetos
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python cacador.py
+        run: bash vigiar.sh
 
-      - name: Guardar projetos já vistos
-        run: |
-          git config user.name "cacador-bot"
-          git config user.email "cacador-bot@users.noreply.github.com"
-          git add vistos.json
-          git diff --cached --quiet || (git commit -m "vistos" && git push)
+      - name: Ligar a próxima rodada
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run cacador.yml --ref main
