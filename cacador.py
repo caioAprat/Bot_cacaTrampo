@@ -1,7 +1,7 @@
 """Caçador de clientes: vigia o 99Freelas e o Workana e avisa no Telegram com rascunho de proposta.
 
 Uso:
-  python cacador.py             roda uma vez (é o que a nuvem faz a cada 20 min)
+  python cacador.py             roda uma vez (é o que a nuvem faz a cada 10 min)
   python cacador.py --teste     mostra os alertas na tela, sem mandar nem salvar nada
   python cacador.py --chat-id   descobre o seu chat_id do Telegram
   python cacador.py --ping      manda uma mensagem de teste para o Telegram

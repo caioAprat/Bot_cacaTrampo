@@ -1,7 +1,7 @@
 CAÇADOR DE CLIENTES
 ===================
 
-O que faz: a cada 20 minutos (das 7h às 23h) lê os projetos novos do 99Freelas e do Workana,
+O que faz: a cada 10 minutos (das 7h às 23h) lê os projetos novos do 99Freelas e do Workana,
 dá uma nota de 0 a 10 para cada um e manda no seu Telegram os que têm a sua cara,
 junto com um rascunho de proposta pronto para copiar.
 Com a chave GEMINI_API_KEY (grátis), a proposta é escrita pela IA para cada projeto;
