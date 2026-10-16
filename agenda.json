@@ -453,5 +453,33 @@
 "subcategoria": "Desenvolvimento Web",
 "titulo": "Desenvolvedor Full-Stack Sênior com IA – Evolução do GoWorker",
 "urgente": false
+},
+"792033": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Olá! Estamos procurando um profissional para desenvolver uma plataforma web para a Atlética Manguezal, uma atlética universitária.\n\nA ideia é criar um sistema que funcione bem em celulares e computadores, com uma área para os atletas e outra para a diretoria.\n\nÁrea do atleta:\n- Cadastro e login individual;\n- Carteirinha digital com QR Code;\n- Visualização do plano contratado, situação da associação e validade;\n- Histórico de pagamentos.\n\nÁrea da diretoria:\n- Cadastro e gerenciamento de associados;\n- Cadastro e gerenciamento de planos;\n- Controle de pagamentos, vencimentos e inadimplência;\n- Consulta de associados em dia, pendentes e com pagamentos atrasados;\n- Painel com informações e relatórios financeiros.\n\nPagamentos e automações:\n- Integração com Pix e cartão de crédito;\n- Confirmação automática dos pagamentos, sempre que possível;\n- Atualização automática da situação e da validade da carteirinha após a confirmação do pagamento;\n- Lembretes de vencimento e pagamento.\n\nQueremos que o QR Code permita consultar a situação atual da carteirinha, evitando que uma carteirinha vencida continue sendo considerada válida.\n\nBuscamos um profissional com experiência em desenvolvimento de sistemas web, banco de dados e integração com plataformas de pagamento. É importante que os dados dos associados sejam protegidos e que existam permissões diferentes para atletas e diretoria.\n\nGostaríamos de receber um orçamento com o valor do desenvolvimento, prazo estimado, tecnologias que serão utilizadas e custos recorrentes de hospedagem, manutenção e integrações. Se possível, pedimos que o orçamento seja dividido por etapas.\n\nTambém queremos saber se haverá suporte após a entrega e se a atlética terá acesso administrativo ao sistema e aos dados.",
+"exclusivo": true,
+"habilidades": [
+"Banco De Dados",
+"Desenvolvimento Back-End",
+"Desenvolvimento de API",
+"Desenvolvimento de Software",
+"Desenvolvimento Web"
+],
+"id": "792033",
+"idade_min": 5,
+"liberado_em": 1792256701.0,
+"link": "https://www.99freelas.com.br/project/desenvolvimento-de-plataforma-web-para-associados-de-atletica-universitaria-792033",
+"nivel": "Intermediário",
+"nota_guardada": 8,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 13,
+"publicado": 1792170301.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Desenvolvimento de plataforma web para associados de atlética universitária",
+"urgente": false
 }
 }
