@@ -1,26 +1,4 @@
 {
-"791825": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "Desenvolvimento de site e Instagram para consignação de veículos - Plataforma Automotiva\n\nProcuro um profissional freelancer para desenvolver um site moderno, profissional, responsivo e de baixo custo para um negócio de consignação e intermediação de veículos usados.\n\nA plataforma deverá permitir que proprietários disponibilizem seus veículos para venda e que interessados consultem anúncios, visualizem fotos, confiram informações e entrem em contato pelo WhatsApp. A estrutura inicial deve ser simples, econômica e preparada para futuras funcionalidades.\n\nFuncionalidades desejadas:\n\nPágina inicial\n- Design moderno, profissional e com identidade visual automotiva;\n- Destaque para veículos anunciados;\n- Busca e filtros por marca, modelo, ano, preço e categoria;\n- Botões de contato pelo WhatsApp.\n\nPágina individual do veículo\n- Galeria de fotos;\n- Marca, modelo, ano, quilometragem, motorização e câmbio;\n- Preço, descrição completa e estado de conservação;\n- Botão para solicitar informações pelo WhatsApp.\n\nCadastro para consignação\n- Formulário para o proprietário interessado em anunciar;\n- Campos para nome, telefone, marca, modelo, ano, quilometragem e preço pretendido;\n- Possibilidade de envio de fotos;\n- Aviso de que o envio não significa aprovação automática.\n\nPainel administrativo\n- Cadastro, edição e exclusão de anúncios;\n- Upload e gerenciamento de fotos;\n- Aprovação dos veículos antes da publicação;\n- Marcação de veículos vendidos ou indisponíveis;\n- Gerenciamento dos contatos recebidos.\n\nTambém são desejadas integração com WhatsApp Business, layout para celulares, tablets e computadores, SEO básico e integração com Google Analytics ou ferramenta equivalente, se viável.\n\nRequisitos técnicos:\n- Baixo custo de desenvolvimento e manutenção;\n- Preferência por ferramentas conhecidas e fáceis de administrar;\n- Hospedagem econômica, com custos recorrentes informados;\n- Domínio próprio, conforme orçamento;\n- Segurança básica, proteção dos formulários e dos dados pessoais;\n- Possibilidade de expansão para múltiplas cidades, lojas parceiras e maior volume de anúncios.\n\nNão é necessário desenvolver um sistema complexo do zero. Estou aberto a WordPress, construtores de sites ou outras soluções adequadas ao orçamento.\n\nO site deverá apresentar claramente as informações dos veículos e dos responsáveis pela negociação. Deverá permitir termos de uso, política de privacidade e avisos sobre o processo de consignação, com revisão jurídica antes da publicação. Não pretendo utilizar promessas genéricas de ausência de defeitos nem cláusulas que afastem direitos legais dos compradores.\n\nEntregáveis esperados:\n- Site publicado e funcionando;\n- Layout profissional e responsivo;\n- Painel administrativo acessível ao contratante;\n- Configuração inicial das páginas e formulários;\n- Orientação para cadastrar e administrar veículos;\n- Entrega dos acessos e instruções de manutenção;\n- Relação dos custos de domínio, hospedagem, plugins e licenças;\n- Suporte inicial para correção de erros após a publicação, com prazo definido na proposta.\n\nA proposta deve informar o valor total, prazo estimado, tecnologia utilizada, custos de manutenção, itens incluídos e cobrados separadamente e experiência com sites automotivos, classificados ou marketplaces.\n\nPretendo começar com uma versão inicial enxuta, evitando funcionalidades desnecessárias e gastos elevados. O projeto poderá evoluir conforme o crescimento do negócio. Valorizo comunicação clara, cumprimento de prazos e entrega de um site que eu consiga administrar sem depender do desenvolvedor para cada alteração.",
-"exclusivo": true,
-"habilidades": [],
-"id": "791825",
-"idade_min": 14,
-"liberado_em": 1792180345.0,
-"link": "https://www.99freelas.com.br/project/desenvolvimento-de-site-para-consignacao-de-veiculos-791825",
-"nivel": "Iniciante",
-"nota_guardada": 7,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 10,
-"publicado": 1792093945.0,
-"subcategoria": "Desenvolvimento Web",
-"titulo": "Desenvolvimento de site para consignação de veículos",
-"urgente": false
-},
 "791839": {
 "cliente": "",
 "cliente_avaliacoes": 0,
