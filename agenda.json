@@ -377,5 +377,31 @@
 "subcategoria": "Criação & Integração com IA",
 "titulo": "Implementação de automação com IA para atendimento via WhatsApp",
 "urgente": false
+},
+"791958": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Preciso de um freelancer para pesquisar indústrias e empresas de médio e grande porte na região noroeste do interior de SP (como Araçatuba, Birigui, Penápolis e Andradina) e preencher uma planilha no Google Sheets que eu vou fornecer.\n\nPara cada empresa, preciso de: nome, segmento, cidade, número aproximado de funcionários, nome e cargo do responsável (RH, SESMT, Segurança do Trabalho ou gerência industrial), LinkedIn, telefone/WhatsApp e e-mail.\n\nQuantidade inicial: 40 empresas.\n\nUse apenas fontes públicas (site da empresa, Google, LinkedIn, Google Maps). Não invente dados: se não encontrar um contato, deixe em branco.\n\nDou preferência a quem tem atenção aos detalhes e cumpre prazos. Peço uma amostra de 5 empresas antes de seguir com o restante.",
+"exclusivo": true,
+"habilidades": [
+"Excel",
+"Google Sheets",
+"Word"
+],
+"id": "791958",
+"idade_min": 6,
+"liberado_em": 1792238313.0,
+"link": "https://www.99freelas.com.br/project/pesquisa-de-empresas-no-noroeste-paulista-e-preenchimento-de-planilha-791958",
+"nivel": "Iniciante",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 2,
+"publicado": 1792151913.0,
+"subcategoria": "Pesquisa Online",
+"titulo": "Pesquisa de empresas no noroeste paulista e preenchimento de planilha",
+"urgente": false
 }
 }
