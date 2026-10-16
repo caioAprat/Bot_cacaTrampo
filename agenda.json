@@ -1,32 +1,4 @@
 {
-"791762": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "Preciso de orçamento para desenvolvimento de um sistema web responsivo (funciona no celular) para uma médica que acompanha pacientes idosos em clínicas geriátricas. Neste momento estou levantando orçamentos para avaliação.\n\nPerfis de acesso:\n1. Médica: cadastra pacientes, responsáveis e clínica vinculada; registra comorbidades, medicações em uso, avaliação funcional e motora; publica resumo de cada visita mensal e sinais vitais com histórico; anexa exames e receitas em PDF.\n2. Familiar: visualiza as informações publicadas pela médica (somente leitura), com termo de autorização do paciente ou responsável.\n3. Médico externo: acesso temporário por QR code ou link com validade, somente leitura.\n\nRequisitos obrigatórios:\n- Conformidade com LGPD (dados de saúde): termo de consentimento, registro de todos os acessos, controle por perfil\n- Dados hospedados no Brasil\n- Painel da médica com visitas do mês e pendências\n- Sem prescrição eletrônica (receitas são feitas em plataforma externa e anexadas)\n- Sem integração com pagamento nesta fase\n\nInformar na proposta:\n- Valor total\n- Prazo\n- Tecnologia utilizada\n- Valor de manutenção mensal após a entrega\n- Projetos semelhantes já entregues",
-"exclusivo": true,
-"habilidades": [
-"Banco De Dados",
-"Desenvolvimento Web",
-"Flutter",
-"Google Firebase",
-"Segurança da Informação"
-],
-"id": "791762",
-"idade_min": 6,
-"liberado_em": 1792167515.0,
-"link": "https://www.99freelas.com.br/project/sistema-web-de-acompanhamento-de-pacientes-idosos-com-portal-para-familia-791762",
-"nivel": "Intermediário",
-"nota_guardada": 9,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 0,
-"publicado": 1792081115.0,
-"subcategoria": "Desenvolvimento Web",
-"titulo": "Sistema web de acompanhamento de pacientes idosos com portal para família",
-"urgente": false
-},
 "791782": {
 "cliente": "",
 "cliente_avaliacoes": 3,
