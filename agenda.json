@@ -355,5 +355,27 @@
 "subcategoria": "Outra - Web, Mobile & Software",
 "titulo": "Criação de Página de Captura em WordPress/Elementor com Formulário e Redire",
 "urgente": false
+},
+"791946": {
+"cliente": "",
+"cliente_avaliacoes": 2,
+"cliente_nota": 5.0,
+"descricao": "Estou buscando um profissional com experiência em automação com inteligência artificial para implementar uma solução de atendimento automatizado para uma empresa.\n\nO projeto tem como objetivo agilizar as respostas aos clientes pelo WhatsApp, automatizar perguntas frequentes e organizar o acompanhamento de potenciais clientes, reduzindo tarefas manuais no atendimento.\n\nO profissional será responsável por:\n\n- Configurar e implementar a automação com IA.\n- Integrar as ferramentas necessárias para o funcionamento da solução.\n- Estruturar os fluxos de atendimento conforme as necessidades da empresa.\n- Realizar testes e garantir que a automação funcione corretamente.\n- Orientar sobre o uso e a manutenção da solução implementada.\n\nRequisitos:\n\n- Experiência prática com automação usando IA.\n- Conhecimento em WhatsApp Business, chatbots e integrações.\n- Domínio de plataformas de automação e, se necessário, APIs.\n- Capacidade de propor uma solução adequada à necessidade apresentada.\n\nNa proposta, informe quais ferramentas utiliza, apresente exemplos de trabalhos anteriores e indique uma estimativa de preço e prazo para implementação.",
+"exclusivo": true,
+"habilidades": [],
+"id": "791946",
+"idade_min": 13,
+"liberado_em": 1792236045.0,
+"link": "https://www.99freelas.com.br/project/implementacao-de-automacao-com-ia-para-atendimento-via-whatsapp-791946",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 11,
+"publicado": 1792149645.0,
+"subcategoria": "Criação & Integração com IA",
+"titulo": "Implementação de automação com IA para atendimento via WhatsApp",
+"urgente": false
 }
 }
