@@ -1,26 +1,4 @@
 {
-"791999": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "Preciso de especialista experiente em segurança WordPress, malware e Google Ads para diagnosticar e resolver uma reprovação persistente por “Site comprometido” no domínio https://diprint.com.br/.\n\nContexto\n• O site usa WordPress e hospedagem HostGator.\n• A HostGator concluiu uma limpeza de malware em 06/out/2026 e informou não haver novos arquivos infectados na varredura posterior.\n• Mesmo após limpeza, atualizações e testes, o Google Ads mantém 20 anúncios reprovados por “Site comprometido”.\n• Não procuro apenas uma nova contestação automática: preciso identificar e corrigir a causa técnica que o Google ainda detecta.\n\nEscopo obrigatório\n1. Auditoria forense recursiva dos arquivos e banco WordPress: núcleo, plugins, temas, mu-plugins, uploads, banco, usuários, snippets, .htaccess, redirecionamentos, cron e configurações PHP/servidor.\n2. Identificar código malicioso, backdoor, redirecionamento condicional, arquivo oculto, permissão insegura ou vulnerabilidade ativa. Se necessário, reconstruir de forma controlada os arquivos do WordPress a partir de cópias oficiais, preservando conteúdo e funcionamento.\n3. Criar/validar backup antes de qualquer alteração e documentar cada arquivo/configuração modificada, removida ou mantida.\n4. Atualizar e endurecer a instalação sem quebrar as páginas de produto e o fluxo de orçamento/WhatsApp.\n5. Validar as páginas públicas, o comportamento para usuários e robôs de busca, e orientar a solicitação de revisão humana no Google Ads/Search Console.\n\nEntregas e critérios de aceite\n• Relatório técnico com causa encontrada (ou evidência objetiva de não detecção), verificações executadas e alterações realizadas.\n• Site funcional após a correção: homepage, página de produto e botão de orçamento/WhatsApp.\n• Checklist de segurança e plano de reversão.\n• Evidências suficientes para enviar ao Google. A aprovação final é decisão do Google e não deve ser prometida.\n\nRequisitos para proposta\n• Informar experiência real com remoção de malware WordPress e casos de Site comprometido no Google Ads.\n• Explicar o método de diagnóstico, prazo e valor fechado ou por etapa.\n• Não enviar propostas genéricas.\n\nUrgência: iniciar assim que possível. Acesso ao cPanel e WordPress será disponibilizado somente ao profissional selecionado; não compartilhe senhas pela plataforma.",
-"exclusivo": true,
-"habilidades": [],
-"id": "791999",
-"idade_min": 13,
-"liberado_em": 1792246576.0,
-"link": "https://www.99freelas.com.br/project/seguranca-wordpress-corrigir-ldquo-site-comprometido-rdquo-no-google-ads-791999",
-"nivel": "Especialista",
-"nota_guardada": 8,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 2,
-"publicado": 1792160176.0,
-"subcategoria": "Desenvolvimento Web",
-"titulo": "Segurança WordPress: corrigir “Site comprometido” no Google Ads",
-"urgente": false
-},
 "792024": {
 "cliente": "",
 "cliente_avaliacoes": 0,
