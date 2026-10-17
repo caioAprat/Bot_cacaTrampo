@@ -1,26 +1,4 @@
 {
-"792127": {
-"cliente": "",
-"cliente_avaliacoes": 11,
-"cliente_nota": 5.0,
-"descricao": "Procuro freelancer para realizar um plantão pontual de atendimento nível 1 do Lupi, sistema de gestão para restaurantes e delivery, neste sábado, dia 17/10.\n\nHorários do plantão:\n- Manhã: 09h às 11h\n- Noite: 18h às 22h\n\nTotal: 6 horas de atendimento, divididas em dois períodos.\n\nAtividades:\n- Atendimento N1 via WhatsApp/chat.\n- Esclarecimento de dúvidas sobre o uso do sistema.\n- Auxílio em questões operacionais recorrentes, como impressoras que pararam de imprimir, chatbot desconectado e ajustes de cardápio e preços.\n- Registro e acompanhamento dos chamados.\n- Identificação e encaminhamento de bugs ou problemas técnicos que precisem de análise do desenvolvimento.\n\nSerá fornecido material de apoio com tutoriais, orientações e respostas prontas. O atendimento deverá seguir esse material, com encaminhamento dos casos que estiverem fora do escopo.\n\nRequisitos:\n- Experiência com atendimento remoto, suporte técnico ou help desk.\n- Boa comunicação escrita e proatividade.\n- Disponibilidade para cumprir os dois períodos informados neste sábado.\n\nModelo de contratação:\n- Freelancer PJ ou profissional autônomo.\n- 100% remoto.\n- Pagamento pelo serviço pontual, com valor combinado previamente.\n- Não há compromisso de continuidade após este plantão.\n\nComo se candidatar:\n\nEnvie sua proposta informando obrigatoriamente:\n- Valor total para cobrir os dois períodos (6 horas).\n- Breve resumo da sua experiência com atendimento ou suporte técnico.\n\nPropostas sem essas duas informações não serão consideradas.",
-"exclusivo": true,
-"habilidades": [],
-"id": "792127",
-"idade_min": 9,
-"liberado_em": 1792277701.0,
-"link": "https://www.99freelas.com.br/project/suporte-n1-para-sistema-de-gestao-de-restaurantes-792127",
-"nivel": "Intermediário",
-"nota_guardada": 10,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 0,
-"publicado": 1792191301.0,
-"subcategoria": "Suporte Técnico",
-"titulo": "Suporte N1 para sistema de gestão de restaurantes",
-"urgente": false
-},
 "792149": {
 "cliente": "",
 "cliente_avaliacoes": 0,
@@ -301,6 +279,28 @@
 "publicado": 1792277119.0,
 "subcategoria": "Criação & Integração com IA",
 "titulo": "Robô de entradas automáticas Aviator",
+"urgente": false
+},
+"792291": {
+"cliente": "",
+"cliente_avaliacoes": 4,
+"cliente_nota": 5.0,
+"descricao": "Procuro freelancer experiente para criar uma landing page simples para exames toxicológicos, otimizada para celulares e focada na conversão de clientes pelo WhatsApp.\n\nNão preciso de um site complexo. Já possuo um site modelo, com textos e estrutura que poderão servir de referência, reduzindo o custo e o prazo de desenvolvimento.\n\nPRIORIDADE ABSOLUTA: SEGURANÇA E PREVENÇÃO DE PHISHING.\n\nÉ indispensável experiência comprovada em segurança digital e políticas do Google Ads. O site deverá ser desenvolvido para minimizar riscos de reprovação por phishing, malware ou sites comprometidos.\n\nRequisitos:\n- Landing page simples, rápida e responsiva (mobile-first).\n- Botões estratégicos de WhatsApp para conversão.\n- Configuração de domínio, hospedagem e SSL.\n- Proteção contra phishing, malware e vulnerabilidades.\n- Adequação técnica às políticas do Google Ads e Meta Ads.\n- Identificação da empresa, CNPJ e política de privacidade.\n- Configuração de acompanhamento de conversões.\n- Testes de segurança documentados antes da entrega.\n\n**A segurança é condição obrigatória para aprovação e pagamento do projeto.** O profissional deverá comprovar os testes realizados e corrigir falhas identificadas antes da entrega.\n\nSEGUNDA ETAPA — GESTÃO DE TRÁFEGO PAGO\n\nApós a conclusão do site, pretendo contratar a gestão mensal de campanhas no Google Ads e Meta Ads (Facebook e Instagram), com foco na geração de contatos pelo WhatsApp.\n\nPrefiro um profissional que possa realizar as duas etapas.\n\nFavor informar:\n- Portfólio e experiência com segurança e Google Ads.\n- Prazo de entrega.\n- Valor para criação da landing page.\n- Valor mensal para gestão de Google Ads e Meta Ads.\n\nIMPORTANTE: Busco uma solução simples, econômica e eficiente. A prioridade é entregar uma landing page de exames toxicológicos segura, testada e preparada para publicidade, com atenção especial à prevenção de bloqueios por phishing.",
+"exclusivo": true,
+"habilidades": [],
+"id": "792291",
+"idade_min": 11,
+"liberado_em": 1792363899.0,
+"link": "https://www.99freelas.com.br/project/landing-page-para-exames-toxicologicos-google-ads-e-meta-ads-792291",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 8,
+"publicado": 1792277499.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Landing Page para Exames Toxicológicos + Google Ads e Meta Ads",
 "urgente": false
 }
 }
