@@ -229,5 +229,51 @@
 "subcategoria": "Gestão de Mídias Sociais",
 "titulo": "Publicações contantes em grupos de whatsapp",
 "urgente": false
+},
+"792268": {
+"cliente": "",
+"cliente_avaliacoes": 58,
+"cliente_nota": 4.93,
+"descricao": "Preenchimento do formulário para renovação de dois passaportes brasileiros e agendamento conjunto em Florianópolis.",
+"exclusivo": true,
+"habilidades": [],
+"id": "792268",
+"idade_min": 8,
+"liberado_em": 1792359778.0,
+"link": "https://www.99freelas.com.br/project/auxilio-para-preencher-formulario-e-agendar-horario-792268",
+"nivel": "Iniciante",
+"nota_guardada": 8,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 1,
+"publicado": 1792273378.0,
+"subcategoria": "Entrada de Dados",
+"titulo": "Auxílio para preencher formulário e agendar horário",
+"urgente": false
+},
+"792277": {
+"cliente": "",
+"cliente_avaliacoes": 1,
+"cliente_nota": 5.0,
+"descricao": "Procuro profissional com experiência comprovada em WhatsApp Business Platform (Cloud API), a API oficial da Meta, para configurar atendimento automatizado para minha empresa.\n\nAtualmente utilizo um robô de terceiros e quero substituí-lo por uma solução com integração oficial, mantendo meu número. Preciso que a transição seja planejada para minimizar interrupções, com a nova solução preparada antes de desligar a atual, conforme as exigências técnicas da migração.\n\nO serviço deverá incluir:\n\n- Avaliação da conexão atual e configuração da integração oficial.\n- Configuração do robô de atendimento, com possibilidade de assumir as conversas manualmente.\n- Conta em nome da minha empresa, com meu acesso de administradora e controle do número.\n- Explicação sobre acesso às conversas, armazenamento de dados e remoção dos acessos do prestador.\n- Testes de funcionamento e treinamento para eu administrar a ferramenta com autonomia.\n\nNão compartilho senhas nem códigos de verificação. O trabalho deverá ser acompanhado por compartilhamento de tela, com acessos concedidos por permissões.\n\nNa proposta, informe a plataforma sugerida, sua experiência, prazo e custos separados de implantação, mensalidade e uso da API. Prefiro contratação mensal, sem fidelidade anual.\n\nInforme também se tem disponibilidade para uma conversa inicial neste domingo.",
+"exclusivo": true,
+"habilidades": [
+"Desenvolvimento de API"
+],
+"id": "792277",
+"idade_min": 4,
+"liberado_em": 1792360034.0,
+"link": "https://www.99freelas.com.br/project/integracao-oficial-do-whatsapp-business-pela-api-da-meta-792277",
+"nivel": "Especialista",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 4,
+"publicado": 1792273634.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Integração oficial do WhatsApp Business pela API da Meta",
+"urgente": false
 }
 }
