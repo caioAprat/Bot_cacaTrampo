@@ -365,6 +365,28 @@
 "titulo": "Suporte N1 para sistema de gestão de restaurantes",
 "urgente": false
 },
+"792149": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Preciso de um(a) freelancer para criar, desenvolver e publicar uma landing page profissional para uma clínica odontológica, com foco em transmitir confiança, apresentar os tratamentos e gerar agendamentos pelo WhatsApp.\n\nA página será utilizada em campanhas do Google Ads, Instagram, Facebook e Google Meu Negócio. Deve ser moderna, rápida, responsiva e otimizada para conversão.\n\nEstrutura da página\n\n- Topo: título de impacto, breve apresentação, imagem profissional e botão de agendamento pelo WhatsApp.\n- Tratamentos: cards com serviços como implantes, clareamento, ortodontia, facetas, limpeza e outros.\n- Sobre a clínica: estrutura, equipe, diferenciais, profissionais responsáveis e número do CRO.\n- Diferenciais: atendimento humanizado, tecnologia, conforto e qualidade dos serviços.\n- Como funciona: etapas do atendimento, do primeiro contato à consulta.\n- Perguntas frequentes: dúvidas sobre tratamentos e agendamentos.\n- Contato: formulário simples, WhatsApp, telefone e endereço.\n- Rodapé: Google Maps, redes sociais, informações profissionais e Política de Privacidade.\n\nFuncionalidades necessárias\n\n- Design 100% responsivo, priorizando celulares.\n- Botão flutuante de WhatsApp com mensagem automática.\n- Formulário integrado ao e-mail ou a uma planilha.\n- Google Analytics 4, Meta Pixel e Google Tag Manager.\n- Rastreamento de conversões de WhatsApp, formulário e telefone.\n- SEO básico para mecanismos de busca.\n- Carregamento rápido e imagens otimizadas.\n- Certificado SSL e configuração de domínio.\n- Política de Privacidade e adequação à LGPD.\n- Página fácil de editar após a entrega.\n\nDesign e conteúdo\n\nO visual deve ser moderno, limpo e profissional, utilizando cores que transmitam confiança, como branco, azul e verde.\n\nA página deve ter boa organização visual, imagens de qualidade, textos objetivos e botões de agendamento bem posicionados.\n\nO serviço também deverá incluir a criação dos textos (copywriting), com foco em conversão e linguagem acessível.\n\nTodo o conteúdo deverá respeitar as normas de publicidade odontológica do CFO/CRO, sem promessas de resultados ou informações enganosas.\n\nEntregáveis\n\n- Landing page publicada e funcionando.\n- Layout adaptado para celular e computador.\n- Integrações de WhatsApp, formulário e ferramentas de rastreamento testadas.\n- SEO e otimização de velocidade.\n- Domínio e SSL configurados.\n- Arquivos-fonte e acessos administrativos.\n- Orientações básicas para editar a página.\n\nObjetivo: criar uma página profissional que apresente a clínica, gere credibilidade e transforme visitantes em potenciais pacientes por meio de agendamentos.",
+"exclusivo": true,
+"habilidades": [],
+"id": "792149",
+"idade_min": 14,
+"liberado_em": 1792285210.0,
+"link": "https://www.99freelas.com.br/project/landing-page-profissional-para-clinica-odontologica-792149",
+"nivel": "Intermediário",
+"nota_guardada": 8,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 26,
+"publicado": 1792198810.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Landing page profissional para clínica odontológica",
+"urgente": false
+},
 "792150": {
 "cliente": "",
 "cliente_avaliacoes": 0,
