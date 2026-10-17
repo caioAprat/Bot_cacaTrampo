@@ -1,32 +1,4 @@
 {
-"792027": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "Buscamos Desenvolvedor Full-Stack Sênior, especialista em integração de Inteligência Artificial, para assumir a continuidade e evolução de um marketplace de serviços já desenvolvido.\n\nSOBRE O PROJETO\n\nO GoWorker é uma plataforma que conecta clientes, prestadores de serviços e empresas. Nosso objetivo é oferecer uma experiência integrada de divulgação profissional, contratação, agendamento, Ordens de Serviço, pagamentos e gestão comercial.\n\nO projeto já possui código-fonte, infraestrutura, auditoria técnica e documentação de transição (handoff).\n\nNão buscamos desenvolvimento do zero nem uma nova auditoria completa. O profissional deverá preservar, melhorar e expandir a arquitetura existente.\n\nTECNOLOGIAS ATUAIS\n\nReact 19, TypeScript, Vite, Tailwind CSS, Supabase, PostgreSQL, Edge Functions, Vercel, GitHub, Capacitor e integração com Asaas.\n\nESCOPO DA NOVA ETAPA\n\n1. Dar continuidade ao sistema existente, concluir pendências documentadas e homologar os fluxos de Ordem de Serviço e pagamentos, inclusive por etapas.\n\n2. Implementar a Glória AI, assistente inteligente integrada à plataforma, capaz de apoiar prestadores no atendimento comercial, elaboração de propostas, organização de agendas, acompanhamento de serviços e pós-venda.\n\n3. Desenvolver padrões de atendimento e automação por categoria profissional, utilizando agentes de IA, APIs e integração segura com o banco de dados.\n\n4. Modernizar os perfis profissionais com fotos, vídeos, portfólio, avaliações, compartilhamento e ferramentas de conversão em contratação.\n\n5. Melhorar a busca por localização, profissão, reputação e disponibilidade, priorizando desempenho e experiência mobile.\n\n6. Evoluir os painéis de gestão profissional e preparar a estrutura para funcionalidades empresariais e assinaturas recorrentes de IA.\n\nPERFIL DESEJADO\n\nExperiência comprovada com React, TypeScript, Supabase, PostgreSQL, agentes de IA, APIs, automações e integrações financeiras.\n\nÉ essencial ter experiência com plataformas reais em produção, manutenção de código existente, GitHub, segurança e documentação.\n\nFORMA DE CONTRATAÇÃO\n\nProjeto com entregas por etapas, escopo e orçamento previamente aprovados.\n\nO acesso ao código-fonte privado ficará condicionado à assinatura de NDA e contrato com cláusulas de confidencialidade e propriedade intelectual.\n\nPARA SE CANDIDATAR\n\nApresente seu portfólio e responda:\n\n1. Já assumiu projetos desenvolvidos por outros programadores?\n2. Quais sistemas desenvolveu com React e Supabase?\n3. Já integrou agentes de IA a agendas, atendimento ou gestão comercial?\n4. Possui experiência com Asaas, Pix e pagamentos?\n5. Qual sua disponibilidade e como estruturaria as entregas?\n\nBuscamos um parceiro técnico experiente para evolução e continuidade do produto, com possibilidade de novas etapas.",
-"exclusivo": true,
-"habilidades": [
-"Integração com Gateways de Pagamento",
-"Inteligência Artificial",
-"PostgreSQL",
-"React",
-"Typescript"
-],
-"id": "792027",
-"idade_min": 13,
-"liberado_em": 1792252475.0,
-"link": "https://www.99freelas.com.br/project/desenvolvedor-full-stack-senior-com-ia-ndash-evolucao-do-goworker-792027",
-"nivel": "Especialista",
-"nota_guardada": 9,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 7,
-"publicado": 1792166075.0,
-"subcategoria": "Desenvolvimento Web",
-"titulo": "Desenvolvedor Full-Stack Sênior com IA – Evolução do GoWorker",
-"urgente": false
-},
 "792033": {
 "cliente": "",
 "cliente_avaliacoes": 0,
