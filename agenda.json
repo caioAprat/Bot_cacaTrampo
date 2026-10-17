@@ -408,5 +408,27 @@
 "subcategoria": "Outra - Web, Mobile & Software",
 "titulo": "Criação de Site empresarial",
 "urgente": false
+},
+"792155": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "**Configuração avulsa de coexistência oficial do WhatsApp Business + Cloud API**\n\nProcuro profissional para configurar a coexistência oficial do número da minha empresa, permitindo utilizar o mesmo número no WhatsApp Business do celular e na API oficial da Meta, integrada ao meu ERP desenvolvido no Base44.\n\n**Escopo do serviço:**\n\n- Avaliar a configuração atual e a elegibilidade do número para coexistência.\n- Realizar as configurações necessárias na Meta e ativar a coexistência.\n- Configurar credenciais, permissões e webhooks necessários à integração com o ERP.\n- Testar envio e recebimento de mensagens pelo celular e pelo ERP.\n- Entregar documentação básica e os acessos sob controle da minha empresa.\n\nQuero contratar somente a implantação avulsa, com pagamento pelo serviço, sem assinatura de plataforma de atendimento. Informe qualquer custo recorrente ou dependência de provedor necessária.\n\nNa proposta, envie valor total, prazo, experiência com coexistência oficial e período de suporte após a entrega.",
+"exclusivo": true,
+"habilidades": [],
+"id": "792155",
+"idade_min": 11,
+"liberado_em": 1792285969.0,
+"link": "https://www.99freelas.com.br/project/conectar-o-whatsapp-coexistente-ao-nosso-erp-792155",
+"nivel": "Intermediário",
+"nota_guardada": 9,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 11,
+"publicado": 1792199569.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Conectar o WhatsApp coexistente ao nosso ERP",
+"urgente": false
 }
 }
