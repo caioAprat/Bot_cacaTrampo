@@ -354,5 +354,27 @@
 "subcategoria": "Planilhas e Relatórios",
 "titulo": "Sistema de gestão financeira e operacional",
 "urgente": false
+},
+"792216": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Sistema Web de Gestão de Associados\n\n1. Resumo do Projeto\n\nDesenvolvimento de uma aplicação web responsiva (optimizada para dispositivos móveis) para a gestão integrada de associados. O sistema deve ser prioritariamente desenvolvido em PHP, incorporando padrões elevados de segurança — incluindo a encriptação de palavras-passe via **Argon2id** (ou equivalente) e registo detalhado (*audit log*) de todas as alterações efetuadas.\n\n---\n\n2. Módulos e Interfaces Previstas\n\nMódulo de Autenticação:\nEcrã de *Login* unificado com controlo de acessos por perfil (Associados e Funcionários).\n\nPortal do Associado:\nCarteirinha digital responsiva com geração dinâmica de **QR Code** individual.\n\nPainel Administrativo do Funcionário:\nInterface para gestão cadastral completa dos associados (CRUD).\nLeitor de QR Code integrado (via câmara) para verificação instantânea do estado do associado (*Em dia*, *Devedor* ou *Desfiliado*).\n\nGestão Financeira e Consignações:\nRegisto de mensalidades e anuidades com histórico de pagamentos (valores e formas de pagamento).\nMódulo de importação e processamento automática dos ficheiros de retorno de mensalidades descontadas em folha, compatível com os sistemas **ECONSIG** e **SEPLAG** (conforme documentação técnica a ser fornecida).\n\n3. Entregáveis e Propriedade Intelectual\n\nTransferência de Direitos: O projeto prevê a cessão total da propriedade intelectual.\nEntregáveis: Fornecimento do código-fonte integral, bem como a documentação técnica e de utilização do sistema.",
+"exclusivo": true,
+"habilidades": [],
+"id": "792216",
+"idade_min": 2,
+"liberado_em": 1792336689.0,
+"link": "https://www.99freelas.com.br/project/sistema-web-de-gestao-de-associados-792216",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 2,
+"publicado": 1792250289.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Sistema Web de Gestão de Associados",
+"urgente": false
 }
 }
