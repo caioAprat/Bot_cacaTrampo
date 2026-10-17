@@ -1,30 +1,4 @@
 {
-"792046": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "Emissão de notas fiscais eletrônicas (NF-e, NFC-e e NFS-e), conferência dos dados fiscais, verificação de produtos, valores e impostos, validação das informações no sistema, transmissão e autorização das notas, emissão de documentos auxiliares e organização dos arquivos XML para envio à contabilidade.",
-"exclusivo": true,
-"habilidades": [
-"Administração",
-"Finanças",
-"Suporte Administrativo"
-],
-"id": "792046",
-"idade_min": 9,
-"liberado_em": 1792257730.0,
-"link": "https://www.99freelas.com.br/project/emissao-de-nfce-nfse-e-nfe-em-qualquer-sistema-comercial-792046",
-"nivel": "Intermediário",
-"nota_guardada": 8,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 1,
-"publicado": 1792171330.0,
-"subcategoria": "Financeiro",
-"titulo": "EMISSÃO DE NFCE, NFSE E NFE EM QUALQUER SISTEMA COMERCIAL",
-"urgente": false
-},
 "792095": {
 "cliente": "",
 "cliente_avaliacoes": 0,
