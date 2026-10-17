@@ -1,26 +1,4 @@
 {
-"792109": {
-"cliente": "",
-"cliente_avaliacoes": 23,
-"cliente_nota": 5.0,
-"descricao": "Desenvolvedor(a) React + Laravel - Newsletter\n\nProjeto\nReconstruir a newsletter em uma página React. Hoje, o modelo é um arquivo HTML em newsletter/models, e a configuração fica em v20_newsletter. O novo fluxo deve permitir criar o modelo na tela e salvar modelo + agrupamento + ordem no banco.\n\nEscopo\n- Tela para criar, duplicar e editar modelos (cabeçalho, blocos de notícia, rodapé, cores, fonte)\n- Configurar agrupamento (assunto, palavra-chave, tipo de veículo, etc.)\n- Configurar ordenação (peso, mídia, tiragem, data)\n- Preview do e-mail\n- Persistência no MySQL\n- API Laravel ligando no motor atual (Newsletter.php + clipping)\n- Migração dos modelos atuais da pasta para o banco\n- Não interromper o envio que já existe (manual/cron)\n\nObrigatório\n- React (hooks, formulário complexo, preview)\n- Laravel 7 / PHP (API)\n- MySQL (modelar e gravar layout + regras)\n- HTML de e-mail\n- SQL com agrupamento e ordenação\n\nDesejável\n- TypeScript\n- Drag-and-drop\n- Experiência com builder (e-mail/relatório)\n- SES / disparo de e-mail\n- Migração de jQuery para React",
-"exclusivo": true,
-"habilidades": [],
-"id": "792109",
-"idade_min": 11,
-"liberado_em": 1792271956.0,
-"link": "https://www.99freelas.com.br/project/desenvolvimento-de-newsletter-em-react-laravel-7-php-792109",
-"nivel": "Especialista",
-"nota_guardada": 7,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 16,
-"publicado": 1792185556.0,
-"subcategoria": "Desenvolvimento Web",
-"titulo": "Desenvolvimento de newsletter em React + Laravel 7/PHP",
-"urgente": false
-},
 "792111": {
 "cliente": "",
 "cliente_avaliacoes": 1,
