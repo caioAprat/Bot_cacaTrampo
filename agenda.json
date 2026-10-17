@@ -364,5 +364,27 @@
 "subcategoria": "Suporte Técnico",
 "titulo": "Suporte N1 para sistema de gestão de restaurantes",
 "urgente": false
+},
+"792150": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Realizar a criação de um site com formato mais profissional, o que possui no momento é muito amador.",
+"exclusivo": true,
+"habilidades": [],
+"id": "792150",
+"idade_min": 4,
+"liberado_em": 1792285179.0,
+"link": "https://www.99freelas.com.br/project/criacao-de-site-empresarial-792150",
+"nivel": "Iniciante",
+"nota_guardada": 8,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 0,
+"publicado": 1792198779.0,
+"subcategoria": "Outra - Web, Mobile & Software",
+"titulo": "Criação de Site empresarial",
+"urgente": false
 }
 }
