@@ -326,5 +326,32 @@
 "subcategoria": "Desenvolvimento Web",
 "titulo": "Sistema Web de Gestão de Associados",
 "urgente": false
+},
+"792225": {
+"cliente": "",
+"cliente_avaliacoes": 52,
+"cliente_nota": 5.0,
+"descricao": "Identificar e mapear estabelecimentos de materiais de construção em 14 cidades de Alagoas, Bahia, Pernambuco e Sergipe.\n\nA atividade será realizada remotamente, por pesquisa no Google Maps e complementação em sites e redes sociais dos estabelecimentos.\n\nInformações a coletar\n\n-Nome do estabelecimento, nome comercial e rede, quando houver.\n-Localização: endereço completo, bairro, município e UF.\n-Coordenadas: latitude e longitude em graus decimais, correspondentes ao ponto da loja.\n-Google Maps: link direto do estabelecimento.\n-Funcionamento: ativo, temporariamente fechado, permanentemente fechado ou não confirmado.\n-Contatos comerciais: telefone e WhatsApp publicados.\n-Presença digital: site, Instagram e Facebook, quando localizados.\n-Avaliações: nota e quantidade de avaliações no Google.\n-Horários: dias e horários publicados.\n-Perfil da operação: loja generalista, home center, atacadista/distribuidor, depósito ou especialista.\n-Tamanho: loja pequena, média ou grande.\n-Observações: divergências, possíveis duplicidades e informações pendentes.\n-Fontes, data da consulta e links utilizados.\n\nMétodo esperado\n\n- Pesquisar cada cidade com diferentes termos, como “materiais de construção”, “depósito de construção”, “atacado de materiais de construção”, “cimento”, “ferro e aço” e “telhas”.\n- Conferir os resultados no Google Maps e complementar com fontes oficiais dos estabelecimentos.\n- Eliminar duplicidades e verificar se o endereço pertence à cidade pesquisada.\n- Distinguir informações confirmadas de indícios ou inferências.\n- Registrar “não localizado” ou “não confirmado” quando a informação não estiver disponível.\n- Sinalizar estabelecimentos relevantes com pouca presença digital.\n\nEntregáveis\n\n1. Planilha Excel consolidada, seguindo modelo fornecido, com uma linha por unidade física.\n2. Indicação dos estabelecimentos que merecem aprofundamento, com justificativa baseada em mix, atuação em volume, entrega e perfil da operação.\n3. Resumo da cobertura por cidade, com quantidade de estabelecimentos encontrados e limitações da pesquisa.\n\nEsta contratação contempla o mapeamento online. Não inclui contato com lojas para solicitar preços ou condições comerciais.\n\nPerfil desejado\n- Experiência com pesquisa de mercado, levantamento de concorrentes ou organização de bases comerciais.\n- Domínio de Google Maps e Excel ou Google Sheets.\n- Atenção a endereços, coordenadas, duplicidades e qualidade das fontes.\n- Experiência no setor de materiais de construção será um diferencial.\n\nConfidencialidade\nO projeto, as bases fornecidas e os resultados são confidenciais. O material não poderá ser divulgado, compartilhado com terceiros ou utilizado em portfólio sem autorização prévia.\n\nAo enviar sua proposta, informe:\n\n- Experiência em trabalhos semelhantes e exemplo de entrega, sem dados confidenciais.\n- Como pretende pesquisar e conferir os resultados.\n- Prazo para o piloto e para o projeto completo.\n- Orçamento para as 14 cidades.\n- Forma de cobrança e premissas utilizadas para estimar o trabalho.",
+"exclusivo": true,
+"habilidades": [
+"Google Maps API",
+"Pesquisa de Marketing",
+"Pesquisa de Mercado",
+"Pesquisa na Internet"
+],
+"id": "792225",
+"idade_min": 6,
+"liberado_em": 1792342129.0,
+"link": "https://www.99freelas.com.br/project/pesquisa-online-e-mapeamento-de-lojas-de-materiais-de-construcao-mdash-14-cidad-792225",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 0,
+"publicado": 1792255729.0,
+"subcategoria": "Pesquisa de Mercado",
+"titulo": "Pesquisa online e mapeamento de lojas de materiais de construção — 14 cidad",
+"urgente": false
 }
 }
