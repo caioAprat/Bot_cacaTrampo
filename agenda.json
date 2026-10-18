@@ -316,5 +316,33 @@
 "subcategoria": "Vídeo - Edição e Produção",
 "titulo": "Gravação de 3 vídeos curtos UGC para Meta Ads",
 "urgente": false
+},
+"792411": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Preciso desenvolver um painel administrativo / sistema de gestão web\n\nFuncionalidades principais desejadas:\n- Login e controle de acesso (admin)\n- Dashboard com visão geral (métricas, resumos)\n- Cadastro e gerenciamento de produtos/itens\n- Controle de pedidos / vendas / clientes\n- Relatórios básicos\n- Interface limpa, moderna e fácil de usar\n- Responsivo (funcionar bem no celular e computador)\n\nObservações:\n- Tenho prints/referência do painel que quero como base (posso enviar)\n- Quero algo funcional e estável, não precisa ser idêntico, mas com a mesma proposta\n- Preferência por tecnologias modernas e bem documentadas\n- Entrega com código-fonte e instruções de instalação\n\nPor favor, envie portfólio de painéis administrativos ou sistemas de gestão que já tenha desenvolvido.",
+"exclusivo": true,
+"habilidades": [
+"Javascript",
+"Laravel",
+"MySQL",
+"PHP",
+"React"
+],
+"id": "792411",
+"idade_min": 3,
+"liberado_em": 1792439391.0,
+"link": "https://www.99freelas.com.br/project/desenvolvimento-de-painel-administrativo-sistema-de-gestao-792411",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 0,
+"publicado": 1792352991.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Desenvolvimento de Painel Administrativo / Sistema de Gestão",
+"urgente": false
 }
 }
