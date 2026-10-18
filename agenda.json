@@ -1,31 +1,4 @@
 {
-"792289": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "Descrição do Projeto:\nEstou a procura de um profissional que tenha experiência com desenvolvimento de bots e sala de sinais de apostas esportivas e cassinos online, que consiga entregar o bot para as seguintes funções no jogo Aviator.\n\n• Sala de sinais no Telegram para que o robô possa fazer a leitura dos sinais e fazer a operação através de uma estratégia pré-definida.\n\n• O robô irá operar automaticamente na conta do usuário, fazendo assim as entradas de acordo com os sinais e a estratégia pré-definida.\n\n• Permita que o usuário crie suas estratégias dentro do robô.\n\n• Interface gráfica web/mobile ou até mesmo um app para que o jogador possa acompanhar os resultados e fazer as pré-configurações das estratégias.\n\n• Criar inicialmente uma dashboard para acessar 24/7 todas as rondas do jogo criando um relatório editável de acordo com dados a serem inseridos como: quantidade,sequencia de multiplicadores e demais itens a serem incluidos posteriormente. Implementações poderão ser feitas durante a fase de criação do projeto.\n\nAgradeço antecipadamente os orçamentos dos interessados no projeto.",
-"exclusivo": true,
-"habilidades": [
-"OCR",
-"Python",
-"SQL",
-"SQLite"
-],
-"id": "792289",
-"idade_min": 7,
-"liberado_em": 1792363519.0,
-"link": "https://www.99freelas.com.br/project/robo-de-entradas-automaticas-aviator-792289",
-"nivel": "Iniciante",
-"nota_guardada": 10,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 0,
-"publicado": 1792277119.0,
-"subcategoria": "Criação & Integração com IA",
-"titulo": "Robô de entradas automáticas Aviator",
-"urgente": false
-},
 "792291": {
 "cliente": "",
 "cliente_avaliacoes": 4,
@@ -321,6 +294,28 @@
 "publicado": 1792359386.0,
 "subcategoria": "Desenvolvimento Web",
 "titulo": "Ajustes em sistema de versionamento de arquivos em Node.js",
+"urgente": false
+},
+"792435": {
+"cliente": "",
+"cliente_avaliacoes": 2,
+"cliente_nota": 5.0,
+"descricao": "Preciso que seja feita integração do site em sistema OJS com o Google Analytics e habilitar acesso ao site com uso o www. atualmente só é possivel acessar com o nome+.com.br",
+"exclusivo": true,
+"habilidades": [],
+"id": "792435",
+"idade_min": 18,
+"liberado_em": 1792449029.0,
+"link": "https://www.99freelas.com.br/project/integrar-no-ojs-google-analytics-e-acertar-acesso-com-www-no-site-792435",
+"nivel": "Intermediário",
+"nota_guardada": 8,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 4,
+"publicado": 1792362629.0,
+"subcategoria": "Outra - Web, Mobile & Software",
+"titulo": "Integrar no OJS - Google Analytics e acertar acesso com www no site",
 "urgente": false
 }
 }
