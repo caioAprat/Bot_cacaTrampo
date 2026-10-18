@@ -1,26 +1,4 @@
 {
-"792268": {
-"cliente": "",
-"cliente_avaliacoes": 58,
-"cliente_nota": 4.93,
-"descricao": "Preenchimento do formulário para renovação de dois passaportes brasileiros e agendamento conjunto em Florianópolis.",
-"exclusivo": true,
-"habilidades": [],
-"id": "792268",
-"idade_min": 8,
-"liberado_em": 1792359778.0,
-"link": "https://www.99freelas.com.br/project/auxilio-para-preencher-formulario-e-agendar-horario-792268",
-"nivel": "Iniciante",
-"nota_guardada": 8,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 1,
-"publicado": 1792273378.0,
-"subcategoria": "Entrada de Dados",
-"titulo": "Auxílio para preencher formulário e agendar horário",
-"urgente": false
-},
 "792277": {
 "cliente": "",
 "cliente_avaliacoes": 1,
@@ -343,6 +321,30 @@
 "publicado": 1792352991.0,
 "subcategoria": "Desenvolvimento Web",
 "titulo": "Desenvolvimento de Painel Administrativo / Sistema de Gestão",
+"urgente": false
+},
+"792415": {
+"cliente": "",
+"cliente_avaliacoes": 193,
+"cliente_nota": 4.99,
+"descricao": "Tenho um sistema de versionamento de arquivos que preciso atualizar. Esse sistema está em Node.js, com integração com SQL e com o Spaces da DigitalOcean.\n\nTenho uma lista de itens para melhorar:\n\n- Em vez de deixar a opção de renomear o arquivo para material do aluno e/ou professor no Class Files, trazer essa opção ao fazer o upload no desenvolvimento. Assim, evitamos o retrabalho de criar uma pasta ou renomear esse material manualmente e, quando chegar o momento de enviar o material para o Class Files, ele já estará renomeado.\n- Ao selecionar o material do item 1, destacar qual item está sendo selecionado, pois atualmente ele só é apresentado pelo nome e não há uma informação visível destacando qual arquivo está sendo trabalhado.\n- Imagem.\n- Colocar uma cor de destaque para o material do professor.\n- Ao enviar os arquivos do desenvolvimento para homologação, permitir a seleção e o envio de mais de um arquivo simultaneamente.\n- Permitir o envio de uma pasta do desenvolvimento para homologação.\n- Permitir renomear uma pasta em desenvolvimento.\n- Permitir arrastar ou mover arquivos no desenvolvimento para as pastas, pois, uma vez que o arquivo é enviado para um local, não temos como movê-lo.\n- Habilitar o upload de todos os tipos de arquivo. Atualmente, estamos limitados a XLS, PDF, Word, PPT e HTML, mas não estamos conseguindo enviar arquivos HTML.\n\nEmail de validação de material:\n\n- O arquivo não é encaminhado como anexo.\n- Quando se clica no botão de copiar o link, ele direciona para a caixa onde o link está, sendo necessária a ação de copiar; ele não copia o link automaticamente.\n- O link para acessar o material está com a escrita em branco. Assim, não fica visível para o professor onde deve clicar para acessar o link do material.\n- Imagem.\n\n- Não permitir duplicidade de arquivo com o mesmo nome na pasta de homologação. Quando subimos a versão 2 em homologação e existe algum arquivo com o mesmo nome, ele não substitui o arquivo, mas o duplica. Deve informar que já existe um arquivo com esse nome e perguntar se desejamos renomeá-lo ou substituí-lo, pois, no momento, ele duplica o material.\n- Imagem.\n- No portal do aluno, ao clicar no botão \"baixar todos os arquivos\", são trazidos arquivos que não estão enviados no Class Files ou que estão nas pastas de homologação ou desenvolvimento, incluindo arquivos de outras aulas do mesmo módulo.\n- No portal do professor, ao clicar no botão \"baixar todos os arquivos\", são trazidos apenas os materiais do aluno; os arquivos do professor não são baixados.\n- Em homologação, não é apresentada a quantidade de pastas, subpastas e arquivos em todos os níveis.",
+"exclusivo": true,
+"habilidades": [
+"NodeJS"
+],
+"id": "792415",
+"idade_min": 10,
+"liberado_em": 1792445786.0,
+"link": "https://www.99freelas.com.br/project/ajustes-em-sistema-de-versionamento-de-arquivos-em-node-js-792415",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 2,
+"publicado": 1792359386.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Ajustes em sistema de versionamento de arquivos em Node.js",
 "urgente": false
 }
 }
