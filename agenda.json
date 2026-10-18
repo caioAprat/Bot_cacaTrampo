@@ -1,26 +1,4 @@
 {
-"792182": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "Busco um desenvolvedor freelancer (alguém da região de Londrina-PR preferencialmente) para dar continuidade ao MVP do eBistro, uma plataforma de afiliados para restaurantes, desenvolvido no Lovable. Já possuo o código-fonte, mas preciso corrigir bugs existentes, revisar o funcionamento das funcionalidades e concluir a configuração técnica do projeto.\n\nO trabalho inclui configurar e colocar a aplicação em produção, preparar a hospedagem, configurar e conectar o banco de dados, ajustar as variáveis de ambiente e integrações necessárias, além de testar o funcionamento geral da plataforma.\n\nProcuro alguém com experiência em projetos desenvolvidos no Lovable, desenvolvimento web, banco de dados, hospedagem e implantação de aplicações. Também preciso de orientação para entender a infraestrutura configurada e garantir que eu tenha acesso e controle sobre o código, o banco de dados e os serviços utilizados.\n\nO objetivo é deixar o MVP estável, funcional e preparado para iniciar a validação com os primeiros restaurantes e afiliados parceiros do eBistro.",
-"exclusivo": true,
-"habilidades": [],
-"id": "792182",
-"idade_min": 10,
-"liberado_em": 1792320422.0,
-"link": "https://www.99freelas.com.br/project/ebistro-plataforma-de-afiliados-para-restaurantes-792182",
-"nivel": "Iniciante",
-"nota_guardada": 7,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 2,
-"publicado": 1792234022.0,
-"subcategoria": "Desenvolvimento Web",
-"titulo": "EBistro - Plataforma de Afiliados para Restaurantes",
-"urgente": false
-},
 "792192": {
 "cliente": "",
 "cliente_avaliacoes": 0,
