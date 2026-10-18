@@ -326,5 +326,33 @@
 "subcategoria": "Outra - Web, Mobile & Software",
 "titulo": "Levantamento de contatos comerciais de imobiliárias e corretores (Google Ma",
 "urgente": false
+},
+"792307": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Sou estudante de Ciência de Dados e desenvolvo projetos práticos utilizando Python, com foco em análise, organização, tratamento e interpretação de dados.\n\nTenho interesse em transformar dados em informações úteis para apoiar decisões e melhorar resultados. Estou desenvolvendo conhecimentos em Pandas, análise exploratória de dados, visualização de informações e Machine Learning, incluindo projetos de classificação de risco.\n\nPosso contribuir com tarefas de organização de planilhas, tratamento de dados, análises exploratórias, criação de gráficos e relatórios, sempre buscando qualidade, clareza e atenção aos detalhes.\n\nSou comprometido com prazos, aprendizado contínuo e comunicação transparente. Utilizo ferramentas de Inteligência Artificial como apoio ao desenvolvimento, revisando e buscando compreender os códigos e resultados entregues.",
+"exclusivo": true,
+"habilidades": [
+"Business Intelligence",
+"Linguagem de Programação R",
+"MySQL",
+"NumPy",
+"Python"
+],
+"id": "792307",
+"idade_min": 8,
+"liberado_em": 1792370952.0,
+"link": "https://www.99freelas.com.br/project/analista-de-dados-junior-python-analise-de-dados-machine-learni-792307",
+"nivel": "Intermediário",
+"nota_guardada": 8,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 1,
+"publicado": 1792284552.0,
+"subcategoria": "Banco de Dados",
+"titulo": "Analista de Dados Júnior | Python | Análise de Dados | Machine Learni",
+"urgente": false
 }
 }
