@@ -266,5 +266,32 @@
 "subcategoria": "Outra - Atendimento ao Consumidor",
 "titulo": "Facilita360condominiosdkdkdkdkdkdjddjdjdjxjxxxjxjxjxjxxjxjxjxxjxjxxxjxjxjxj",
 "urgente": false
+},
+"792357": {
+"cliente": "",
+"cliente_avaliacoes": 34,
+"cliente_nota": 4.99,
+"descricao": "Ajuda para criar envios de links de programa de afiliado de algumas plataformas: Amazon, Magalu, Shopee e outras.",
+"exclusivo": true,
+"habilidades": [
+"Javascript",
+"NodeJS",
+"PostgreSQL",
+"Python"
+],
+"id": "792357",
+"idade_min": 7,
+"liberado_em": 1792412670.0,
+"link": "https://www.99freelas.com.br/project/programa-de-afiliados-para-whatsapp-792357",
+"nivel": "Especialista",
+"nota_guardada": 9,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 4,
+"publicado": 1792326270.0,
+"subcategoria": "Outra - Web, Mobile & Software",
+"titulo": "Programa de afiliados para whatsapp",
+"urgente": false
 }
 }
