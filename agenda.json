@@ -297,5 +297,27 @@
 "subcategoria": "Contabilidade",
 "titulo": "ADÃO: automação para o fechamento contábil",
 "urgente": false
+},
+"792564": {
+"cliente": "",
+"cliente_avaliacoes": 2,
+"cliente_nota": 5.0,
+"descricao": "Preciso de um sistema web completo para gerenciar as medições de contratos de obras públicas: lançamento das quantidades executadas, análise e aprovação, cálculo de valores e geração dos documentos. Hoje o processo é feito com planilhas Excel e macros, com documentos enviados por e-mail. Quero substituir isso por um sistema online, funcional e publicado na internet, com login. Estou fazendo um levantamento de valores e prazos; peço propostas com orçamento detalhado.\n\nPERFIS DE ACESSO (login por e-mail e senha)\n- Empreiteira: vê e lança apenas os dados da própria empresa.\n- Fiscalização e Planejamento (duas equipes da gerenciadora): analisam e aprovam cada uma por um critério.\n- Órgão contratante: somente consulta, com todos os relatórios.\n- Administrador: cadastra usuários, redefine senhas, controla permissões por ação e vê o registro de atividades (quem fez o quê e quando).\n\nTELAS E RECURSOS\n1. Portal inicial com os módulos do sistema e menu do usuário (tema claro e escuro).\n2. Medição mensal com linha do tempo das etapas: medição aberta, memórias em rascunho, enviadas, avaliação da fiscalização, avaliação do planejamento, correções, faturamento liberado, medição aceita e arquivada.\n3. Memória de cálculo: a empreiteira escolhe o item de serviço do catálogo, informa a quantidade medida, a área e a frente de serviço. O sistema calcula acumulado e saldo do item, e impede lançamento acima do saldo.\n4. Fluxo de aprovação dupla: cada equipe aprova, pede ajuste ou aponta glosa. O item só fica aprovado quando as duas concordam, e depois disso é travado. Pedidos de ajuste ficam registrados com histórico.\n5. Cálculo financeiro: valor medido, BDI do contrato, reajuste por coeficientes mensais, diferença de reajuste e total, separados por empresa, área, frente de serviço e fonte pagadora. Cada valor é calculado uma só vez e todas as telas e documentos leem o mesmo resultado, sem divergência de centavos.\n6. Visão consolidada de uma medição, de um intervalo ou de todas (mais de 100 medições de histórico), por empresa, área, fonte pagadora e frente, com exportação em PDF e Excel.\n7. Cadastros e controles: áreas e frentes, empenho mensal por fonte pagadora, número de processo (SEI) por empresa, marcação de empresa que não vai medir no período.\n8. Documentos gerados em PDF e Excel: memória de cálculo, resumo por item, resumo por macro item, planilha de faturamento, folhas por frente e por área, ofício e relatórios consolidados.\n9. Anexos e correspondências por medição, guardados no sistema.\n10. Notificações dentro do sistema (sino) para cada perfil.\n11. Carga do histórico existente a partir de planilhas, com conferência de valores.\n12. Administração de usuários e registro de atividades.\n\nREQUISITOS TÉCNICOS\n- Banco de dados relacional (PostgreSQL) com regras de consistência no próprio banco.\n- Interface responsiva, no navegador, sem instalação.\n- Publicação em servidor (VPS) com domínio próprio e HTTPS.\n- Cada ação conferida pelo servidor conforme o perfil, não apenas pela tela.\n- Rotina de atualização do sistema com cópia de segurança e volta para a versão anterior em caso de erro.\n- Código-fonte e documentação de uso entregues ao final.\n\nO QUE PEÇO NA PROPOSTA\n- Valor total e forma de pagamento (por etapas, se preferir).\n- Prazo de entrega e número de horas estimadas.\n- Tecnologias que pretende usar.\n- Experiência com sistemas parecidos (fluxo de aprovação, cálculos financeiros, geração de PDF e Excel).\n- Custo mensal estimado de hospedagem e banco de dados.\n- Valor de manutenção e suporte após a entrega.\n- Se prefere dividir em etapas: núcleo de lançamento e aprovação, cálculos e consolidado, documentos, administração.\n\nTenho as regras de negócio e os dados organizados e posso explicar o processo e responder dúvidas. Não preciso de design criado do zero: posso definir as cores e o estilo visual.",
+"exclusivo": true,
+"habilidades": [],
+"id": "792564",
+"idade_min": 4,
+"liberado_em": 1792510118.0,
+"link": "https://www.99freelas.com.br/project/sistema-web-para-gerenciar-medicoes-de-obras-publicas-792564",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 3,
+"publicado": 1792423718.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Sistema web para gerenciar medições de obras públicas",
+"urgente": false
 }
 }
