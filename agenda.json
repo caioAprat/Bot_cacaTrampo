@@ -336,5 +336,32 @@
 "subcategoria": "Outra - Administração & Contabilidade",
 "titulo": "Organizar planilhas Excel e pacote office",
 "urgente": false
+},
+"792487": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Procuro profissional com experiência comprovada em Shopify para desenvolver uma loja virtual de óculos de sol, com design profissional e sistema de dropshipping automatizado.\n\nREQUISITOS DA LOJA\n\n- Criação e configuração completa da Shopify.\n- Design moderno, premium e responsivo para celulares.\n- Loja totalmente em inglês.\n- Configuração de pagamentos e checkout.\n- Configuração de frete e entregas.\n- Cadastro de produtos com imagens, descrições e preços.\n- Criação das páginas institucionais e políticas da loja.\n- Configuração básica de SEO.\n- Loja pronta para começar a vender.\n\nAUTOMAÇÃO DE DROPSHIPPING\n\nÉ fundamental que o profissional tenha conhecimento e experiência com ferramentas como AutoDS e BuckyDrop, ou alternativas equivalentes.\n\nO objetivo é automatizar todo o processo:\n\n1. Cliente realiza uma compra na Shopify.\n2. Pedido é encaminhado automaticamente ao fornecedor.\n3. Pagamento ao fornecedor é processado automaticamente, preferencialmente utilizando saldo pré-carregado.\n4. Fornecedor envia o produto diretamente ao cliente.\n5. Código de rastreamento é atualizado automaticamente na Shopify.\n6. Preços e estoques são sincronizados automaticamente.\n\nNão quero precisar realizar pedidos manualmente.\n\nIMPORTANTE\n\nNão procuro desenvolver um sistema personalizado do zero. Quero aproveitar ferramentas e aplicativos existentes para reduzir custos.\n\nO profissional deverá verificar a compatibilidade das ferramentas antes de garantir a automação completa.\n\nTambém será necessário realizar um pedido de teste para validar o funcionamento das integrações.\n\nNA PROPOSTA, INFORMAR:\n\n1. Valor total para desenvolver e configurar a loja.\n2. Prazo de entrega.\n3. Quantos produtos estão incluídos no cadastro inicial pelo valor apresentado.\n4. Experiência com Shopify, AutoDS e BuckyDrop.\n5. Exemplos de lojas já desenvolvidas.\n6. Quais automações consegue implementar.\n7. Mensalidades e custos adicionais dos aplicativos.\n8. Se oferece suporte após a entrega e por quanto tempo.\n\nBusco um profissional experiente, responsável e com preço competitivo.\n\nMeu objetivo é receber uma loja profissional, completamente configurada e com o processo de vendas automatizado, sem necessidade de intervenção manual em cada pedido.\n\nAguardo propostas com valores, prazos e detalhes do serviço oferecido.",
+"exclusivo": true,
+"habilidades": [
+"Desenvolvimento de API",
+"Desenvolvimento Web",
+"eCommerce",
+"Shopify"
+],
+"id": "792487",
+"idade_min": 8,
+"liberado_em": 1792494882.0,
+"link": "https://www.99freelas.com.br/project/criacao-de-loja-shopify-com-dropshipping-100-automatizado-792487",
+"nivel": "Intermediário",
+"nota_guardada": 8,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 3,
+"publicado": 1792408482.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Criação de loja Shopify com dropshipping 100% automatizado",
+"urgente": false
 }
 }
