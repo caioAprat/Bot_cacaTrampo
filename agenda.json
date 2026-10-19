@@ -1,26 +1,4 @@
 {
-"792376": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "Estou desenvolvendo uma plataforma B2B SaaS e procuro um profissional experiente em AWS, Cloud Security e arquitetura de aplicações SaaS para realizar uma revisão técnica independente da arquitetura antes da futura operação com clientes reais.\nO objetivo desta contratação não é desenvolvimento, configuração ou alteração do ambiente AWS. Nesta etapa, preciso de uma avaliação independente, preferencialmente documental/read-only, para identificar riscos, lacunas e controles necessários antes de Production.\nEscopo esperado da revisão:\n- arquitetura AWS / Cloud;\n- IAM / Identity Center / least privilege;\n- segurança de rede;\n- isolamento entre clientes/tenants;\n- secrets e configurações;\n- segurança de banco de dados;\n- logging, monitoring e alertas;\n- backup e restore;\n- deployment e rollback;\n- incident readiness;\n- controles adequados para uma aplicação SaaS B2B multi-tenant;\n- principais riscos de segurança antes de Production.\nEntregável esperado:\nUm relatório escrito contendo:\n- escopo e artefatos revisados;\n- principais riscos e vulnerabilidades identificados;\n- classificação dos findings por criticidade;\n- recomendações de correção;\n- itens obrigatórios antes de Production;\n- riscos residuais;\n- conclusão geral, por exemplo: aceitável, aceitável com condições ou não aceitável.\nO relatório deverá ser atribuível ao profissional responsável pela revisão e indicar sua experiência e/ou certificações relevantes.\nImportante:\n- não serão fornecidas credenciais root;\n- não serão compartilhados secrets;\n- não serão fornecidos dados reais de clientes;\n- não haverá autorização para alterações no ambiente AWS nesta primeira etapa;\n- não buscamos neste momento pentest completo nem desenvolvimento da aplicação.\nPerfil desejado:\nProfissional com experiência comprovada em uma ou mais das seguintes áreas:\n- AWS;\n- Cloud Security;\n- IAM / Identity Center;\n- arquitetura SaaS multi-tenant;\n- DevSecOps;\n- segurança de aplicações;\n- backup, disaster recovery e continuidade;\n- segurança de banco de dados.\nNa proposta, favor informar:\n1. experiência relevante para este tipo de revisão;\n2. certificações, se houver;\n3. metodologia que pretende utilizar;\n4. documentos/informações necessários para a revisão;\n5. prazo estimado;\n6. valor total proposto;\n7. exemplo do formato de relatório ou entregável, se possível.",
-"exclusivo": true,
-"habilidades": [],
-"id": "792376",
-"idade_min": 13,
-"liberado_em": 1792420270.0,
-"link": "https://www.99freelas.com.br/project/revisao-independente-de-arquitetura-aws-e-seguranca-para-saas-b2b-792376",
-"nivel": "Intermediário",
-"nota_guardada": 9,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 4,
-"publicado": 1792333870.0,
-"subcategoria": "Cloud Computing",
-"titulo": "Revisão Independente de Arquitetura AWS e Segurança para SaaS B2B",
-"urgente": false
-},
 "792383": {
 "cliente": "",
 "cliente_avaliacoes": 0,
