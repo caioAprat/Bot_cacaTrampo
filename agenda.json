@@ -270,5 +270,32 @@
 "subcategoria": "Desenvolvimento Web",
 "titulo": "Criação de loja Shopify com dropshipping 100% automatizado",
 "urgente": false
+},
+"792558": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "O ADÃO é um assistente que cuida da parte repetitiva da rotina contábil: cobrar documentos dos clientes, organizá-los e lançar as movimentações bancárias no sistema contábil.\n\nCobrança automática de documentos: acompanha, empresa por empresa e mês a mês, o que ainda falta receber e envia lembretes por WhatsApp e e-mail.\nOrganização dos arquivos: extratos, relatórios e planilhas recebidos são identificados e guardados na pasta certa de cada empresa e período, sem duplicidade.\nImportação de extratos bancários: importa os extratos no sistema contábil e sugere as contas contábeis com base em regras de cada empresa e nos relatórios do cliente.\nConferência: compara o que foi lançado com o extrato original e aponta o que ficou sem lançamento ou merece revisão.\nResumo semanal: envia à equipe um panorama do que pode ser importado, do que depende dos clientes e de quem ainda não respondeu.\n\nO resultado é menos digitação e retrabalho, e uma visão clara de quais clientes estão em dia. A equipe fica com a revisão e as decisões.",
+"exclusivo": true,
+"habilidades": [
+"Análise Financeira",
+"Automação de processos robóticos",
+"Contabilidade",
+"Python"
+],
+"id": "792558",
+"idade_min": 4,
+"liberado_em": 1792508282.0,
+"link": "https://www.99freelas.com.br/project/adao-automacao-para-o-fechamento-contabil-792558",
+"nivel": "Iniciante",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 0,
+"publicado": 1792421882.0,
+"subcategoria": "Contabilidade",
+"titulo": "ADÃO: automação para o fechamento contábil",
+"urgente": false
 }
 }
