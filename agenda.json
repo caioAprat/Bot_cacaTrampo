@@ -419,5 +419,30 @@
 "subcategoria": "Desenvolvimento Web",
 "titulo": "Landing Page para um consultorio",
 "urgente": false
+},
+"792670": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Busco desenvolvedor para criar uma versão inicial de um assistente de organização e gestão pelo WhatsApp, com comandos por texto e áudio.\n\nO projeto inclui:\n\nIntegração com a API oficial do WhatsApp e IA.\n\nAgenda, lembretes e registros financeiros básicos.\n\nBanco de dados com acesso individual e separação das informações de cada cliente.\n\nEstrutura preparada para comercialização por assinatura.\n\nProcuro alguém com experiência comprovada em projetos semelhantes, integrações e desenvolvimento SaaS. Pode utilizar n8n ou outras tecnologias, desde que a solução tenha baixo custo operacional e possibilidade de expansão.\n\nNa proposta, envie portfólio, tecnologias sugeridas, prazo, orçamento por etapa e estimativa de manutenção mensal.\n\nO código-fonte, as contas e a infraestrutura deverão ficar sob minha titularidade, com documentação e entrega dos acessos.\n\nO nicho e os fluxos específicos serão apresentados aos profissionais selecionados, mediante acordo de confidencialidade.",
+"exclusivo": true,
+"habilidades": [
+"Desenvolvimento de API",
+"Vendas SaaS"
+],
+"id": "792670",
+"idade_min": 17,
+"liberado_em": 1792524609.0,
+"link": "https://www.99freelas.com.br/project/desenvolvimento-de-assistente-com-ia-no-whatsapp-mdash-mvp-792670",
+"nivel": "Especialista",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 3,
+"publicado": 1792438209.0,
+"subcategoria": "Outra Categoria",
+"titulo": "Desenvolvimento de assistente com IA no WhatsApp — MVP",
+"urgente": false
 }
 }
