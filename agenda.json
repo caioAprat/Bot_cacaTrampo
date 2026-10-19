@@ -1,28 +1,4 @@
 {
-"792301": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "Descrição:\n\nSou corretor de imóveis e preciso de uma lista organizada de imobiliárias e corretores da cidade de [CIDADE/REGIÃO], com os contatos comerciais que eles mesmos divulgam publicamente.\n\nO que preciso:\n\nLevantamento de imobiliárias e corretores no Google Maps, por bairro e por termos como “imobiliária”, “corretor de imóveis” e “consultoria imobiliária”. Prefiro o uso da API oficial do Google Places ou de ferramentas que respeitem os termos do Google.\nComplemento com fontes abertas: consulta pública do CRECI-[UF] e base de CNPJ da Receita Federal (CNAE de corretagem e administração de imóveis, filtrado por município).\nRegistro manual de nomes de imobiliárias e corretores que eu indicar a partir de anúncios públicos, para o profissional buscar o contato nas fontes acima.\n\nO que NÃO quero: robôs de extração em portais de anúncios, uso de contas de terceiros, contorno de login ou captcha, nem coleta de dados pessoais de proprietários (apenas contato comercial de profissionais do setor).\n\nEntrega: planilha (Excel ou Google Sheets) com as colunas: nome, imobiliária, telefone, WhatsApp comercial (se divulgado), e-mail, site, Instagram, bairro, CRECI/CNPJ, origem do dado e data da coleta. Sem duplicados.\n\nPerfil desejado: experiência com Python, planilhas, Google Maps ou dados abertos. Peço que enviem exemplo de trabalho parecido.",
-"exclusivo": true,
-"habilidades": [
-"Python"
-],
-"id": "792301",
-"idade_min": 12,
-"liberado_em": 1792368231.0,
-"link": "https://www.99freelas.com.br/project/levantamento-de-contatos-comerciais-de-imobiliarias-e-corretores-google-ma-792301",
-"nivel": "Intermediário",
-"nota_guardada": 9,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 10,
-"publicado": 1792281831.0,
-"subcategoria": "Outra - Web, Mobile & Software",
-"titulo": "Levantamento de contatos comerciais de imobiliárias e corretores (Google Ma",
-"urgente": false
-},
 "792307": {
 "cliente": "",
 "cliente_avaliacoes": 0,
