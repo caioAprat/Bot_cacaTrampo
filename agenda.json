@@ -313,5 +313,27 @@
 "subcategoria": "Desenvolvimento Web",
 "titulo": "Integração de pedidos de loja virtual com painel",
 "urgente": false
+},
+"792595": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Quero automatizar o atendimento de uma empresa pelo WhatsApp, responder dúvidas frequentes, registrar interessados e encaminhar para uma pessoa quando necessário. Envie valor de implantação, prazo e custos mensais previstos.",
+"exclusivo": true,
+"habilidades": [],
+"id": "792595",
+"idade_min": 16,
+"liberado_em": 1792514402.0,
+"link": "https://www.99freelas.com.br/project/automacao-de-atendimento-pelo-whatsapp-792595",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 12,
+"publicado": 1792428002.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Automação de atendimento pelo WhatsApp",
+"urgente": false
 }
 }
