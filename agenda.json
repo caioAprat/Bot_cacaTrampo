@@ -292,6 +292,30 @@
 "titulo": "Ajustes de layout e responsividade e troca de banners em site institucional",
 "urgente": false
 },
+"792584": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Quero criar uma página em WordPress para divulgar os serviços de uma empresa e receber pedidos de orçamento. Precisa funcionar bem no celular, ter formulário e ser fácil de atualizar. Gostaria de receber valor, prazo e exemplos de trabalhos.",
+"exclusivo": true,
+"habilidades": [
+"Wordpress"
+],
+"id": "792584",
+"idade_min": 7,
+"liberado_em": 1792515836.0,
+"link": "https://www.99freelas.com.br/project/landing-page-em-wordpress-com-formulario-792584",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 20,
+"publicado": 1792429436.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Landing page em WordPress com formulário",
+"urgente": false
+},
 "792593": {
 "cliente": "",
 "cliente_avaliacoes": 0,
