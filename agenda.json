@@ -490,5 +490,29 @@
 "subcategoria": "Criação & Integração com IA",
 "titulo": "Criador de Sites Simples e Landing Pages | HTML, CSS e JavaScript",
 "urgente": false
+},
+"792699": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Preciso de uma landing page para o meu produto digital. Já tenho hospedagem, produto publicado na Hotmart e domínio comprado. A única coisa de que preciso é de uma página bonita, com um bom SEO e que converta.",
+"exclusivo": true,
+"habilidades": [
+"React"
+],
+"id": "792699",
+"idade_min": 11,
+"liberado_em": 1792531349.0,
+"link": "https://www.99freelas.com.br/project/criacao-de-landing-page-para-produto-digital-792699",
+"nivel": "Iniciante",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 20,
+"publicado": 1792444949.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Criação de landing page para produto digital",
+"urgente": false
 }
 }
