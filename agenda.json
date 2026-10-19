@@ -381,5 +381,27 @@
 "subcategoria": "Desenvolvimento Web",
 "titulo": "Automação de atendimento pelo WhatsApp",
 "urgente": false
+},
+"792621": {
+"cliente": "",
+"cliente_avaliacoes": 1,
+"cliente_nota": 1.5,
+"descricao": "Preciso que finalize uma landing page que está em torno de 25% criada, preciso que dê continuidade e talvez melhore algo\nA ideia já tenho",
+"exclusivo": true,
+"habilidades": [],
+"id": "792621",
+"idade_min": 2,
+"liberado_em": 1792517383.0,
+"link": "https://www.99freelas.com.br/project/landing-page-para-construtora-792621",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 0,
+"publicado": 1792430983.0,
+"subcategoria": "UX/UI & Web Design",
+"titulo": "LANDING PAGE Para construtora",
+"urgente": false
 }
 }
