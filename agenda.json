@@ -555,5 +555,27 @@
 "subcategoria": "Contabilidade",
 "titulo": "Criação de Planilhas e Organização de Dados no Excel",
 "urgente": false
+},
+"792730": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Gostaria de automatizar o atendimento pelo WhatsApp usando inteligência artificial.\n\nCARACTERÍSTICAS:\n\n- Responder por áudio às dúvidas dos nossos clientes, com voz natural.\n- Lembrar-se das conversas e atender vários clientes ao mesmo tempo.\n- Também deverá permitir o encaminhamento para atendimento humano quando necessário.\n- Quero um painel administrativo com o histórico das conversas.\n\nFavor enviar o valor da implantação, o prazo de entrega e os custos mensais.",
+"exclusivo": true,
+"habilidades": [],
+"id": "792730",
+"idade_min": 17,
+"liberado_em": 1792539732.0,
+"link": "https://www.99freelas.com.br/project/atendimento-no-whatsapp-com-ia-792730",
+"nivel": "Iniciante",
+"nota_guardada": 9,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 12,
+"publicado": 1792453332.0,
+"subcategoria": "Criação & Integração com IA",
+"titulo": "Atendimento no WhatsApp com IA",
+"urgente": false
 }
 }
