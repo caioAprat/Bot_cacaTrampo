@@ -534,5 +534,29 @@
 "subcategoria": "Desenvolvimento Web",
 "titulo": "Plataforma global para gestão de licenciados",
 "urgente": false
+},
+"792727": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Olá!\n\nEstou procurando um profissional com experiência em **Meta Ads (Facebook Ads), Meta Pixel, API de Conversões e rastreamento de conversões** para realizar uma auditoria técnica na estrutura de rastreamento do meu site e funil de vendas.\n\n**Objetivo do projeto:**\n\nVerificar se os pixels e eventos de conversão estão configurados corretamente, identificar possíveis duplicações, conflitos, eventos ausentes ou disparos incorretos e realizar as correções necessárias.\n\n**O que preciso que seja analisado:**\n\n1. **Auditoria dos pixels:** verificar se existem pixels instalados em duplicidade, códigos desnecessários ou conflitos entre diferentes métodos de instalação.\n\n2. **Eventos de conversão:** PageView, ViewContent, InitiateCheckout e Purchase. Cartão de Crétido, Boleto e PIX configurados mas inativos.\n\n3. **Disparos duplicados:** identificar se algum evento está sendo registrado mais de uma vez indevidamente, especialmente o evento Purchase.\n\n4. **API de Conversões:** verificar a integração, caso esteja ativa, e conferir a deduplicação dos eventos enviados pelo navegador e servidor.\n\n5. **Conversões personalizadas:** verificar se estão configuradas corretamente e se os critérios utilizados correspondem às ações desejadas.\n\n6. **Correções:** realizar os ajustes necessários para garantir um rastreamento consistente e confiável, sem prejudicar as campanhas existentes. (configurados porém gostaria que analiasse)\n\n7. **Validação final:** testar os eventos utilizando as ferramentas de diagnóstico do Meta, como o Gerenciador de Eventos e o Meta Pixel Helper.\n\n**Estrutura utilizada:**\n- Site em WordPress/Elementor, hospedado na Hostinger.\n- Landing page de vendas.\n- Checkout e processamento de pagamentos pela Kiwify.\n- Página de obrigado personalizada em HTML.\n- Meta Ads para campanhas de publicidade.\n\n**Resultado esperado:**\nDesejo receber uma estrutura de rastreamento organizada, sem duplicações indevidas, com os eventos necessários funcionando corretamente e as conversões de vendas sendo registradas de forma confiável.\n\nTambém gostaria de receber um breve relatório informando quais problemas foram encontrados, quais correções foram realizadas e quais testes confirmaram o funcionamento.\n\n**Importante:** A prioridade é analisar e se necessário corrigir algum detalhe específico a estrutura existente, evitando alterações desnecessárias ou a criação de novos pixels sem justificativa.\n\nAguardo propostas com prazo estimado, valor e experiência em projetos semelhantes.",
+"exclusivo": true,
+"habilidades": [
+"Facebook Pixel"
+],
+"id": "792727",
+"idade_min": 9,
+"liberado_em": 1792537740.0,
+"link": "https://www.99freelas.com.br/project/conferir-e-corrigir-se-necessario-a-organizacao-estrutura-de-pixels-792727",
+"nivel": "Iniciante",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 0,
+"publicado": 1792451340.0,
+"subcategoria": "Outra Categoria",
+"titulo": "Conferir e corrigir se necessario a organização estrutura de pixels",
+"urgente": false
 }
 }
