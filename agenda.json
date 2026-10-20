@@ -1,26 +1,4 @@
 {
-"792712": {
-"cliente": "",
-"cliente_avaliacoes": 1,
-"cliente_nota": 5.0,
-"descricao": "Solicitação de Proposta Técnico-Comercial - Plataforma Global Multinível\n\n1. Objetivo\n\nDesenvolver plataforma global para gestão de licenciados, rede multinível, bonificações, carreira e conteúdos educacionais, com interface em português, inglês e espanhol.\n\n2. Produto e licenciamento\n\nLicença anual de acesso à tecnologia, com vídeos gravados no YouTube, cursos e treinamentos de negócios. A plataforma deverá permitir organizar e atualizar conteúdos sem programação.\n\nPlanos: BASIC - $ 100 anuais, até o 6º nível; EXPERT - $ 250 anuais, até o 7º nível; ELITE - $ 500 anuais, até o 8º nível. Controlar contratação, ativação, vencimento, renovação, upgrade e status das licenças.\n\n3. Área do Licenciado\n\nPainel com dados da licença; link e código de indicação; indicados diretos; árvore genealógica; matriz 5×8; comissões pendentes, apuradas, aprovadas, bloqueadas e pagas; carreira e qualificações; rankings e checkpoints; TIX Points e premiações; cursos, vídeos, documentos, suporte e links externos.\n\n4. Matriz fechada 5×8\n\nCinco posições por nível e oito níveis de profundidade, totalizando 488.280 posições abaixo do titular. Níveis: 1 - 5; 2 - 25; 3 - 125; 4 - 625; 5 - 3.125; 6 - 15.625; 7 - 78.125; 8 - 390.625. Preenchimento de cima para baixo e da esquerda para a direita; controle de patrocinador, posição, spillover, ocupação, status e histórico; genealogia de patrocinadores separada da posição na matriz.\n\n5. Motor de bonificações\n\nIndicação Direta - 20% sobre o valor líquido elegível da licença inicial ou upgrade do indicado direto.\n\nRenda Compartilhada - 3% por nível sobre o valor elegível da licença, para cada nível ascendente contemplado pela regra e respeitando a elegibilidade.\n\nBônus Fundador - 4% aos fundadores elegíveis sobre o valor das licenças, em todas as profundidades, sem limite de níveis.\n\nTop 5 - 4% do valor elegível das licenças para os cinco melhores recrutadores do período, conforme ranking e critérios definidos.\n\nTIX Points - 1% convertido em pontos acumuláveis para premiações, usando $ 1 = 1 ponto.\n\nRegistrar origem, beneficiário, base, percentual, nível, versão da regra e status; apuração, aprovação, bloqueio, pagamento e estorno; prevenção de duplicidades.\n\n6. Plano de carreira\n\nConsultor; Consultor Executivo; Coordenador; Coordenador Executivo; Líder Regional; Líder Master; Diretor Regional; Diretor Master; Presidente Regional; Presidente Master; Presidente Global. Calcular carreiras, exibir requisitos, progresso e checkpoints e manter histórico. Os critérios finais serão aprovados pela TIX INVEST.\n\n7. Painel Administrativo\n\nGerenciar usuários, permissões, países, idiomas, planos, preços, licenças, matriz, indicações, bonificações, carreira, rankings, checkpoints, pontos, premiações, cursos, vídeos do YouTube, documentos, notificações e relatórios. Regras de negócio editáveis por usuários autorizados, com histórico e versionamento. Não permitir alterações retroativas silenciosas em bonificações já acumuladas.\n\n8. Requisitos técnicos e entregas\n\nPlataforma web responsiva e trilíngue; banco escalável; backend com regras centralizadas; API documentada; segurança, controle de acesso e auditoria; prevenção de duplicidades; backups e recuperação; testes automatizados e de segurança; ambientes de desenvolvimento, homologação e produção; código-fonte e repositório sob controle da TIX INVEST; documentação, treinamento, plano de manutenção, cronograma, equipe e custos.\n\n9. Critérios de conclusão\n\nAprovar testes de licenças, matriz, bonificações, carreira, permissões e relatórios; entregar código-fonte e documentação. Antes da implementação, a TIX INVEST definirá a cumulatividade final dos bônus, a distribuição do Bônus Fundador, a divisão do Top 5 e o cálculo por nível.\n\nObjetivo final: plataforma global e administrável para licenciamento, educação, rede, bonificações e carreira.",
-"exclusivo": true,
-"habilidades": [],
-"id": "792712",
-"idade_min": 11,
-"liberado_em": 1792534432.0,
-"link": "https://www.99freelas.com.br/project/plataforma-global-para-gestao-de-licenciados-792712",
-"nivel": "Intermediário",
-"nota_guardada": 10,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 6,
-"publicado": 1792448032.0,
-"subcategoria": "Desenvolvimento Web",
-"titulo": "Plataforma global para gestão de licenciados",
-"urgente": false
-},
 "792727": {
 "cliente": "",
 "cliente_avaliacoes": 0,
