@@ -603,5 +603,27 @@
 "subcategoria": "Financeiro",
 "titulo": "Cálculos judiciais no sistema PROJEFWEB",
 "urgente": false
+},
+"792804": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Bom dia pessoal, tudo bem com vocês? Espero que sim.\n\nHá 1 semana eu estou rodando um SaaS aqui na minha cidade chamado Tira Gosto Delivery, viemos para substituir o IFood, estamos com 12 restaurantes parceiros nesse momento e com vários clientes e visitas.\n\nDesenvolvi esse projeto com Lovable e estou utilizando o Supabase PRO como banco de dados.\n\nEstou com muito medo de prospectar muitos clientes e o meu sistema não suportar tanto usuários fazendo requisições, acessos e pedidos, conversas chat interno ao mesmo tempo.\n\nO que mais me preoucupa é pequenas lentidões que tanto o painél da empresa e tanto no PWA possuem e precisava remover ou diminuir isso.\n\nO que mais pesa eu imagino atualmente no meu software é: Evolution API onde o chat interno do APP recebe todas as mensagens de clientes que fizeram pedidos no APP, os clientes mandam comprovante para o número conectado a loja e podem enviar comprovantes\n\nJá tinha pago uma empresa para me ajudar, ela fez alguns ajustes quando fiz o lançamento do sistema na quarta-feira pois ele crashou, resolveu até então e agora está OK mas ainda com lentidões, ela sumiu e não me deu mais retorno, ela estava verificando querys, indices, banco de dados, requisições, stresstest\n\nNão sei até quando as alterações que ela serviram irão durar.\n\nNeste momento quero que meu SaaS suporte a principio 50 empresas vendendo, trocando mensagens via evolution, e vários clientes simultaneos usando meu APP sem ter perigo de crashar\n\nCaso seja necessário mudar a infraestrutura para que eu não tenha dor de cabeça por um tempo, também estou disposto a mudar\n\nMuito obrigado e até mais",
+"exclusivo": true,
+"habilidades": [],
+"id": "792804",
+"idade_min": 13,
+"liberado_em": 1792580028.0,
+"link": "https://www.99freelas.com.br/project/escala-saas-de-delivery-e-testes-792804",
+"nivel": "Especialista",
+"nota_guardada": 9,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 5,
+"publicado": 1792493628.0,
+"subcategoria": "Banco de Dados",
+"titulo": "ESCALA SAAS DE DELIVERY E TESTES",
+"urgente": false
 }
 }
