@@ -765,5 +765,56 @@
 "subcategoria": "Criação & Integração com IA",
 "titulo": "Desenvolvimento de editora inteligente de cursos com IA",
 "urgente": false
+},
+"792903": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Busco parceiro freelancer com sistema contábil próprio para assumir as rotinas de Departamento Pessoal do nosso escritório de contabilidade, que se encontra em fase inicial de estruturação.\n\nCenário atual\nNossa demanda atual é de pequeno porte. Possuímos uma média de 7 colaboradores (vidas) ativos nas folhas de pagamento mensais, distribuídos entre as empresas de nossos diferentes clientes.\n\nEstrutura da proposta\nPara avaliarmos a viabilidade da parceria, peço que sua proposta de honorários seja enviada com a seguinte separação de valores:\n\n- Fechamento mensal (Fopag): informe o valor cobrado por colaborador ativo (por vida) para o processamento da folha mensal, incluindo geração de holerites, guias, impostos e fechamento do eSocial.\n- Serviços esporádicos: envie uma tabela de valores avulsos para as demandas pontuais, especificando o custo unitário para:\n - Admissões;\n - Rescisões/demissões;\n - Processamento de férias;\n - Lançamento de afastamentos.\n\nRequisito: é indispensável que o profissional possua sistema próprio para a execução dos cálculos e transmissões oficiais.\n\nAguardo o envio da sua tabela de precificação para iniciarmos nossa parceria.",
+"exclusivo": true,
+"habilidades": [
+"Folha de Pagamento",
+"Impostos sobre Folha de Pagamento"
+],
+"id": "792903",
+"idade_min": 12,
+"liberado_em": 1792596642.0,
+"link": "https://www.99freelas.com.br/project/fechamento-de-folha-de-pagamento-fopag-com-sistema-proprio-792903",
+"nivel": "Iniciante",
+"nota_guardada": 8,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 2,
+"publicado": 1792510242.0,
+"subcategoria": "Contabilidade",
+"titulo": "Fechamento de folha de pagamento (Fopag) com sistema próprio",
+"urgente": false
+},
+"792904": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Estamos buscando um freelancer experiente para desenvolver e implementar um chatbot inteligente com inteligência artificial para automatizar as respostas em nosso canal de WhatsApp. O objetivo principal é otimizar a comunicação com nossos clientes, fornecendo respostas rápidas e eficientes para perguntas frequentes e direcionando interações mais complexas para o atendimento humano, quando necessário. O projeto envolve a criação da lógica de IA para compreensão de linguagem natural e a integração com a plataforma WhatsApp para garantir um fluxo de comunicação contínuo e eficaz. Buscamos uma solução robusta que possa ser escalável e que melhore significativamente a experiência do usuário.",
+"exclusivo": true,
+"habilidades": [
+"Inteligência Artificial",
+"NodeJS",
+"React"
+],
+"id": "792904",
+"idade_min": 10,
+"liberado_em": 1792596799.0,
+"link": "https://www.99freelas.com.br/project/desenvolvimento-de-chatbot-com-ia-para-automacao-de-respostas-no-whatsapp-792904",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 9,
+"publicado": 1792510399.0,
+"subcategoria": "Criação & Integração com IA",
+"titulo": "Desenvolvimento de Chatbot com Ia para Automação de Respostas no Whatsapp",
+"urgente": false
 }
 }
