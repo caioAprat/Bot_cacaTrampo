@@ -759,5 +759,27 @@
 "subcategoria": "Banco de Dados",
 "titulo": "Automação de consulta de processos na JUCEMS (Viabilidade, DBE, FCN e Regis",
 "urgente": false
+},
+"792965": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Queremos uma página que transmita confiança, acolhimento, segurança e esperança, abordando o tema com sensibilidade, sem transmitir uma mensagem triste ou excessivamente comercial.\n\nO que precisamos:\n- Criação de uma landing page responsiva, adaptada para computadores, tablets e celulares.\n- Desenvolvimento preferencialmente em WordPress.\n- Design moderno, humanizado e visualmente elegante.\n- Utilização de fotografias reais que representem diferentes configurações familiares, com diversidade e inclusão.\n- Organização dos conteúdos em seções claras e de fácil navegação.\n- Apresentação do propósito do projeto, seus diferenciais e sua proposta de valor.\n- Botões de contato e integração com WhatsApp.\n- Formulário de contato ou manifestação de interesse.\n- Configuração básica de SEO e boas práticas de desempenho.\n- Orientação para que possamos editar textos e imagens posteriormente.",
+"exclusivo": true,
+"habilidades": [],
+"id": "792965",
+"idade_min": 7,
+"liberado_em": 1792610081.0,
+"link": "https://www.99freelas.com.br/project/criacao-de-landing-page-responsiva-em-wordpress-792965",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 3,
+"publicado": 1792523681.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Criação de landing page responsiva em WordPress",
+"urgente": false
 }
 }
