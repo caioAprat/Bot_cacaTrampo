@@ -1,28 +1,4 @@
 {
-"792686": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "Olá! Estamos em busca de um profissional qualificado para atuar no suporte técnico e atendimento ao cliente da nossa plataforma.\n\nPrincipais atividades:\n- Atendimento resolutivo a clientes.\n- Suporte técnico de Nível 1 e 2 (esclarecimento de dúvidas sobre o sistema, identificação de erros e orientação ao usuário).\n- Registro e acompanhamento de chamados.\n\nRequisitos desejados:\n- Excelente comunicação escrita (clareza, empatia e gramática correta).\n- Experiência prévia com atendimento ao consumidor ou suporte de sistemas.\n\nEscopo e Carga Horária:\n- Dedicação de 20 horas semanais em horário comercial.\n- Trabalho 100% remoto.\n\nPor favor, envie sua proposta com seu valor por hora ou valor mensal fixo, junto com um breve resumo da sua experiência na área.",
-"exclusivo": true,
-"habilidades": [
-"Atendimento ao Cliente"
-],
-"id": "792686",
-"idade_min": 1,
-"liberado_em": 1792528774.0,
-"link": "https://www.99freelas.com.br/project/suporte-tecnico-n1-n2-e-atendimento-ao-cliente-792686",
-"nivel": "Iniciante",
-"nota_guardada": 8,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 0,
-"publicado": 1792442374.0,
-"subcategoria": "Suporte Técnico",
-"titulo": "Suporte técnico n1/n2 e atendimento ao cliente.",
-"urgente": false
-},
 "792697": {
 "cliente": "",
 "cliente_avaliacoes": 0,
@@ -777,6 +753,28 @@
 "publicado": 1792526098.0,
 "subcategoria": "Desenvolvimento Web",
 "titulo": "Integração entre Olist, Mercado Livre e Shopee",
+"urgente": false
+},
+"792987": {
+"cliente": "",
+"cliente_avaliacoes": 1,
+"cliente_nota": 5.0,
+"descricao": "Busco um freelancer com experiência na criação de front-end e animações simples. O trabalho será desenvolver um front-end. Busco algo minimalista e impactante, que seja agradável tanto em dispositivos móveis quanto em PC, seguindo boas práticas de UI/UX.",
+"exclusivo": true,
+"habilidades": [],
+"id": "792987",
+"idade_min": 13,
+"liberado_em": 1792614668.0,
+"link": "https://www.99freelas.com.br/project/criacao-de-front-end-para-saas-792987",
+"nivel": "Intermediário",
+"nota_guardada": 7,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 15,
+"publicado": 1792528268.0,
+"subcategoria": "UX/UI & Web Design",
+"titulo": "Criação de front-end para SaaS",
 "urgente": false
 }
 }
