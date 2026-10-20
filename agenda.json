@@ -1,26 +1,4 @@
 {
-"792469": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "Eu quero trabalhar com o pacote Office completo, ou coisas básicas meio período, jovem aprendiz......",
-"exclusivo": true,
-"habilidades": [],
-"id": "792469",
-"idade_min": 426,
-"liberado_em": 1792465416.0,
-"link": "https://www.99freelas.com.br/project/organizar-planilhas-excel-e-pacote-office-792469",
-"nivel": "Iniciante",
-"nota_guardada": 8,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 0,
-"publicado": 1792379016.0,
-"subcategoria": "Outra - Administração & Contabilidade",
-"titulo": "Organizar planilhas Excel e pacote office",
-"urgente": false
-},
 "792487": {
 "cliente": "",
 "cliente_avaliacoes": 0,
@@ -602,6 +580,28 @@
 "publicado": 1792458089.0,
 "subcategoria": "Contabilidade",
 "titulo": "Falar com Paulo no WhatsApp para um conversa",
+"urgente": false
+},
+"792768": {
+"cliente": "",
+"cliente_avaliacoes": 1,
+"cliente_nota": 5.0,
+"descricao": "Preciso de um Contador Judicial\n\n* Experiência com cálculos judiciais no sistema PROJEFWEB;\n* Conhecimento do Manual de Cálculos da Justiça Federal;\n* Experiência com cálculos em ações de superendividamento.\nOs interessados deverão enviar suas propostas com a descrição dos serviços oferecidos e os respectivos valores.\n\nDúvidas e propostas pelo WhatsApp: (96) 98123-1540",
+"exclusivo": true,
+"habilidades": [],
+"id": "792768",
+"idade_min": 482,
+"liberado_em": 1792548449.0,
+"link": "https://www.99freelas.com.br/project/calculos-judiciais-no-sistema-projefweb-792768",
+"nivel": "Iniciante",
+"nota_guardada": 8,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 1,
+"publicado": 1792462049.0,
+"subcategoria": "Financeiro",
+"titulo": "Cálculos judiciais no sistema PROJEFWEB",
 "urgente": false
 }
 }
