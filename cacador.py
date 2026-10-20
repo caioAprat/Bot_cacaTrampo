@@ -746,8 +746,33 @@ def rodar(teste=False):
         time.sleep(1)
 
     if not teste:
+        vigiar_assistente(vistos)
         salvar_vistos(vistos)
         salvar_agenda(agenda)
+
+
+def vigiar_assistente(vistos):
+    """Uma vez por hora (das 9h às 21h, Brasília) confere se o assistente financeiro está vivo e avisa se não estiver.
+    Só funciona se o secret ASSISTENTE_URL (endereço /exec, sem chave) estiver configurado."""
+    url = os.environ.get("ASSISTENTE_URL", "").strip()
+    if not url:
+        return
+    agora = time.time()
+    if agora - vistos.get("__vigia_assistente", 0) < 3600:
+        return
+    vistos["__vigia_assistente"] = agora
+    hora_brasilia = int(time.strftime("%H", time.gmtime(agora - 3 * 3600)))
+    if hora_brasilia < 9 or hora_brasilia > 21:
+        return
+    try:
+        dados = json.loads(baixar(url + ("&" if "?" in url else "?") + "acao=saude", tentativas=3))
+    except Exception:
+        dados = None
+    parado = dados is None or not dados.get("ok") or (dados.get("horasRotina") is not None and dados["horasRotina"] > 30)
+    if parado and agora - vistos.get("__alerta_assistente", 0) > 12 * 3600:
+        vistos["__alerta_assistente"] = agora
+        motivo = "não respondeu" if dados is None else "não rodou há mais de 30h"
+        enviar(f"⚠️ O assistente financeiro {motivo}. Abra a planilha > Extensões > Apps Script > Acionadores e confira.")
 
 
 def descobrir_chat_id():
