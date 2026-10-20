@@ -702,5 +702,27 @@
 "subcategoria": "Diagramação",
 "titulo": "Criação de folder institucional para apresentação empresarial",
 "urgente": false
+},
+"793020": {
+"cliente": "",
+"cliente_avaliacoes": 1,
+"cliente_nota": 5.0,
+"descricao": "Busco um freelancer com experiência na criação de front-end e animações simples. O trabalho será desenvolver um front-end. Busco algo minimalista e impactante, que seja agradável tanto em dispositivos móveis quanto em PCs, seguindo boas práticas de UI/UX. Busco apenas o Figma do projeto. No total, serão trabalhadas 21 telas, algumas mais detalhadas e outras não. Preciso também da criação dos ícones. Irei anexar um escopo de referência.",
+"exclusivo": true,
+"habilidades": [],
+"id": "793020",
+"idade_min": 11,
+"liberado_em": 1792621703.0,
+"link": "https://www.99freelas.com.br/project/criacao-de-front-end-para-saas-no-figma-793020",
+"nivel": "Intermediário",
+"nota_guardada": 9,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 2,
+"publicado": 1792535303.0,
+"subcategoria": "UX/UI & Web Design",
+"titulo": "Criação de front-end para SaaS no Figma",
+"urgente": false
 }
 }
