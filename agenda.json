@@ -694,5 +694,27 @@
 "subcategoria": "Outra - Web, Mobile & Software",
 "titulo": "Script Python para raspagem de dados",
 "urgente": false
+},
+"792851": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Buscamos profissional especializado em automação de sistemas (RPA) e inteligência artificial para desenvolver uma ferramenta de pesquisa automática de pacotes turísticos nos portais **Orinter Travel, Europlus Operadora e Azul Viagens**.\n\nTodos os portais exigem acesso por login e senha, que deverão ser gerenciados de forma segura.\n\n**Funcionalidades desejadas:**\n- Pesquisa automática de pacotes com aéreo e hospedagem.\n- Consulta de diferentes destinos, datas e períodos flexíveis.\n- Saídas de Viracopos, Guarulhos e Congonhas.\n- Comparação de preços, hotéis, horários de voos e condições comerciais.\n- Identificação das melhores oportunidades de custo-benefício.\n- Organização dos resultados em painel ou planilha.\n- Possibilidade de pesquisas programadas e alertas de redução de preços.\n- Utilização de IA para classificação das melhores ofertas.\n\n**Objetivo:** reduzir o trabalho manual de pesquisa, identificar oportunidades comerciais e agilizar a elaboração de propostas e ofertas para nossos clientes.\n\nBuscamos profissionais com experiência em Python, Playwright, Selenium, APIs ou tecnologias similares, respeitando as condições de acesso de cada operadora.\n\n**Solicitamos propostas com experiência comprovada, prazo de desenvolvimento, investimento e custos de manutenção.**\n\nPreferimos iniciar com uma prova de conceito em uma operadora e, após validação, ampliar para os demais portais.",
+"exclusivo": true,
+"habilidades": [],
+"id": "792851",
+"idade_min": 13,
+"liberado_em": 1792590060.0,
+"link": "https://www.99freelas.com.br/project/automacao-com-ia-para-pesquisa-de-pacotes-turisticos-792851",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 15,
+"publicado": 1792503660.0,
+"subcategoria": "Criação & Integração com IA",
+"titulo": "Automação com IA para pesquisa de pacotes turísticos",
+"urgente": false
 }
 }
