@@ -778,5 +778,27 @@
 "subcategoria": "Pesquisa de Mercado",
 "titulo": "Pesquisa e mapeamento de potenciais clientes para palestras e treinamentos",
 "urgente": false
+},
+"792982": {
+"cliente": "",
+"cliente_avaliacoes": 11,
+"cliente_nota": 5.0,
+"descricao": "Possuo uma loja na plataforma Loja Integrada, com integração com o ERP Olist. Gostaria de integrar o estoque e subir os produtos já disponíveis no ERP para o Mercado Livre e a Shopee. São requisitos:\n\n- Enviar a descrição, a imagem e o estoque do Olist para o Mercado Livre e a Shopee;\n- Atualização automática do estoque entre todas as plataformas, sempre que o estoque sofrer alteração no ERP.",
+"exclusivo": true,
+"habilidades": [],
+"id": "792982",
+"idade_min": 8,
+"liberado_em": 1792612498.0,
+"link": "https://www.99freelas.com.br/project/integracao-entre-olist-mercado-livre-e-shopee-792982",
+"nivel": "Iniciante",
+"nota_guardada": 9,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 8,
+"publicado": 1792526098.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Integração entre Olist, Mercado Livre e Shopee",
+"urgente": false
 }
 }
