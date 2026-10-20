@@ -776,5 +776,27 @@
 "subcategoria": "UX/UI & Web Design",
 "titulo": "Criação de front-end para SaaS",
 "urgente": false
+},
+"792994": {
+"cliente": "",
+"cliente_avaliacoes": 1,
+"cliente_nota": 5.0,
+"descricao": "Boa tarde , aceito propostas para criar um sistema , que rode no celular , tablet e computador.. com AGENDAMENTOS de procedimentos para salão de beleza.\nprecisa ter.... Preciso de um sistema para salão aonde eu cadastro cliente onde eu tenho acesso à agenda minha e dos outros profissionais que atua no estúdio preciso de relatório do mês preciso da comissão somada e o principal que eu estou buscando preciso o agendamento on-line onde o cliente entra agenda on-line faz o pagamento antecipado que ele não consegue agendar sem pagar\n\nNecessario ter Tópicos:\n\nAGENDA\nAGENDAMENTO ON LINE\nCOMANDAS\nDESPESAS\nRELATORIOS\nCLIENTES\nPROFISSIONAIS\nSERVIÇOS\nPRODUTOS\n\nAS Comandas são importantes pra fechar os valores de cada procedimento , os relatório completo de dia, semana mes e ano.. tudo ficando arquivado.\n\nCliente importante ter campos de dados desse cliente , e quando cliente SUMIR e na hora de VOLTAR saber qual foi a ultima vez que ele veio.. comissão somada das funcionarias já com a ferramenta previa das comissões repassadas.\n\no agendamento on line onde cliente agenda escolhe o dia e horários disponíveis , mas só consegue de fato agendar quando pagar a metade ou total do procedimento escolhido , por isso IMPORTANTE quando o cliente estiver agendando , ja da ali a opção do pix e cartão pra ele fazer na hora o pagemento",
+"exclusivo": true,
+"habilidades": [],
+"id": "792994",
+"idade_min": 10,
+"liberado_em": 1792615512.0,
+"link": "https://www.99freelas.com.br/project/aplicativo-para-salao-de-beleza-792994",
+"nivel": "Iniciante",
+"nota_guardada": 8,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 2,
+"publicado": 1792529112.0,
+"subcategoria": "Design Gráfico",
+"titulo": "Aplicativo para salão de beleza",
+"urgente": false
 }
 }
