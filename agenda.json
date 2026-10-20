@@ -726,5 +726,29 @@
 "subcategoria": "Marketing Digital",
 "titulo": "Busco Parceiros para Divulgação e Indicação de Clientes",
 "urgente": false
+},
+"792938": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Preciso de um site em WordPress, com layout profissional, responsivo e entrega rápida. Tenho urgência!",
+"exclusivo": true,
+"habilidades": [
+"Wordpress"
+],
+"id": "792938",
+"idade_min": 14,
+"liberado_em": 1792605135.0,
+"link": "https://www.99freelas.com.br/project/site-institucional-em-wordpress-792938",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 22,
+"publicado": 1792518735.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Site institucional em WordPress",
+"urgente": false
 }
 }
