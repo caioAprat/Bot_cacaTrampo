@@ -743,5 +743,27 @@
 "subcategoria": "Gestão de Mídias Sociais",
 "titulo": "Divulgação digital para coliving no Rio - 4 dias",
 "urgente": false
+},
+"792886": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Sobre o projeto:\nSomos uma consolidadora de viagens e queremos desenvolver um sistema próprio de busca de passagens em milhas para integrar ao nosso portal de agências. Precisamos de um robô/bot que consulte disponibilidade e preço em milhas diretamente nos programas de fidelidade e retorne os resultados via API própria.\n\nEscopo técnico:\n- Robô de automação de navegador (Playwright ou Puppeteer) que simula busca nos sites de:\n - Smiles (Gol)\n - TudoAzul (Azul)\n - LATAM Pass\n- Retorno padronizado (JSON): origem, destino, data, classe, milhas necessárias, taxas, assentos disponíveis\n- Sistema de filas para rodar múltiplas buscas em paralelo (Redis/Celery ou similar)\n- Rotação de proxies e contorno de proteções anti-bot (sabemos que isso exige manutenção contínua)\n- API REST simples para nosso portal consumir os resultados\n- Cache de resultados por tempo curto\n\nO que buscamos no profissional:\n- Experiência COMPROVADA com scraping/automação de sites de companhias aéreas ou programas de fidelidade brasileiros (isso é essencial, não scraping genérico)\n- Conhecimento em Playwright, Puppeteer ou Selenium\n- Experiência com proxies residenciais e resolução de CAPTCHA\n- Portfólio ou exemplos de projetos similares (sistemas de milhas, bots de telegram para milhas, etc.)\n\nFormato: projeto inicial (MVP com 1 programa de fidelidade primeiro) + possibilidade de contrato continuado para manutenção (as companhias aéreas mudam suas proteções com frequência).\n\nPor favor, na proposta inclua:\n1. Experiência prévia específica com scraping de sites de companhias aéreas/milhas brasileiros\n2. Stack técnica que utilizaria\n3. Estimativa de prazo para o MVP\n4. Valor do projeto inicial e valor mensal de manutenção\n\nAguardamos propostas.",
+"exclusivo": true,
+"habilidades": [],
+"id": "792886",
+"idade_min": 16,
+"liberado_em": 1792594432.0,
+"link": "https://www.99freelas.com.br/project/desenvolvedor-a-para-bot-de-busca-de-passagens-com-milhas-aereas-792886",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 5,
+"publicado": 1792508032.0,
+"subcategoria": "Outra - Web, Mobile & Software",
+"titulo": "Desenvolvedor(a) para bot de busca de passagens com milhas aéreas (",
+"urgente": false
 }
 }
