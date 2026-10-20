@@ -1,26 +1,4 @@
 {
-"792639": {
-"cliente": "",
-"cliente_avaliacoes": 7,
-"cliente_nota": 4.86,
-"descricao": "Estou estruturando um curso online para ensinar pessoas a trabalhar com o posicionamento de empresas no Google utilizando Inteligência Artificial.\n\nProcuro um profissional experiente em infoprodutos para me ajudar a definir a melhor estratégia comercial: lançamento ou venda perpétua.\n\nO que preciso:\n\n- Análise do produto e do público-alvo.\n- Recomendação da melhor estratégia de vendas.\n- Estruturação da oferta e do funil de vendas.\n- Planejamento de página de vendas, plataforma e tráfego pago.\n- Plano de execução com prazos e orçamento.\n\nBusco alguém com experiência comprovada em lançamentos de cursos online, funis de vendas e marketing digital.\n\nImportante: quero receber uma proposta para o planejamento estratégico, com valor separado de uma possível execução.\n\nEnvie seu portfólio, cases de sucesso, metodologia de trabalho e valor da proposta.",
-"exclusivo": true,
-"habilidades": [],
-"id": "792639",
-"idade_min": 6,
-"liberado_em": 1792520323.0,
-"link": "https://www.99freelas.com.br/project/especialista-para-lancamento-de-curso-online-google-meu-negocio-ia-792639",
-"nivel": "Iniciante",
-"nota_guardada": 7,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 0,
-"publicado": 1792433923.0,
-"subcategoria": "Marketing Digital",
-"titulo": "Especialista para lançamento de curso online - Google Meu Negócio + IA",
-"urgente": false
-},
 "792648": {
 "cliente": "",
 "cliente_avaliacoes": 0,
@@ -775,6 +753,33 @@
 "publicado": 1792519700.0,
 "subcategoria": "Desenvolvimento Web",
 "titulo": "Análise de integração com Mercado Pago e modulo de pagamentos",
+"urgente": false
+},
+"792950": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Procuro um desenvolvedor para criar uma ferramenta que consulte, de forma 100% automática e em segundo plano (sem interface visível nem intervenção manual), o andamento de processos de registro empresarial em Mato Grosso do Sul.\n\nA ferramenta deve consultar e devolver o status de cada etapa:\n\nViabilidade (REDESIM/JUCEMS): deferida, indeferida ou em análise\nDBE (Receita Federal): deferido, indeferido, pendente ou cancelado\nFCN (Ficha de Cadastro Nacional): situação atual\nRegistro Digital (JUCEMS): deferido, em exigência ou indeferido. Se estiver em exigência ou indeferido, a ferramenta deve extrair o texto integral da pendência apontada pela Junta.\n\nFuncionamento esperado:\n\nEntrada: número de protocolo (e/ou CNPJ/recibo do DBE) de um ou vários processos\nExecução agendada (ex.: a cada X horas), headless, sem abrir navegador visível\nSaída via API REST (JSON) e um painel web simples listando os processos, o status de cada etapa, a data da última consulta e as pendências\nHistórico de mudanças de status salvo em banco\nAlerta quando algum status mudar, especialmente quando surgir uma exigência (e-mail ou webhook)\n\nStack obrigatória:\n\nBackend: Python + Flask\nFront: Jinja2 + Tailwind CSS + JavaScript vanilla\nBanco: PostgreSQL\nAutomação: Playwright (headless) ou requisições diretas, quando os portais permitirem\nEntrega em Docker (Dockerfile + docker-compose), com credenciais em .env e nada fixo no código\n\nEntregáveis:\n\nCódigo-fonte completo em repositório Git\nREADME com instalação, configuração e uso\nDocumentação dos endpoints da API\nTratamento de erros: portal fora do ar, layout alterado, sessão expirada e protocolo inexistente\nLogs de cada consulta\n30 dias de suporte para correções após a entrega\n\nCritérios de aceite:\n\nConsultar com sucesso ao menos 5 protocolos reais de teste em cada etapa\nExtrair corretamente o texto da exigência de um registro em exigência\nRodar agendado por 48 h sem intervenção\n\nNa proposta, informe:\n\nExperiência prévia com automação em portais governamentais (Junta Comercial, REDESIM, Receita, SEFAZ)\nComo pretende lidar com CAPTCHA e autenticação (certificado digital/gov.br), caso os portais exijam\nPrazo e valor total, divididos por etapa\nLinks de projetos semelhantes\n\nOrçamento: a combinar, com preferência por valor fechado por entrega\nPrazo desejado: até 30 dias",
+"exclusivo": true,
+"habilidades": [
+"Desenvolvimento AI/RPA",
+"Python",
+"Selenium",
+"Web Scraping"
+],
+"id": "792950",
+"idade_min": 10,
+"liberado_em": 1792606685.0,
+"link": "https://www.99freelas.com.br/project/automacao-de-consulta-de-processos-na-jucems-viabilidade-dbe-fcn-e-regis-792950",
+"nivel": "Intermediário",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 3,
+"publicado": 1792520285.0,
+"subcategoria": "Banco de Dados",
+"titulo": "Automação de consulta de processos na JUCEMS (Viabilidade, DBE, FCN e Regis",
 "urgente": false
 }
 }
