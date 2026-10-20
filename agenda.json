@@ -1,26 +1,4 @@
 {
-"792683": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "# JARVIS Home — Assistente de Voz Inteligente para Automação Residencial\n\n**Projeto autoral em desenvolvimento**\n\nDesenvolvimento de um assistente pessoal inteligente inspirado em soluções como Alexa e Google Assistente, com foco em automação residencial, interpretação de comandos em linguagem natural e integração com dispositivos e serviços externos.\n\nO objetivo é criar uma central inteligente capaz de compreender solicitações em português, executar comandos locais e evoluir para controlar dispositivos conectados, como lâmpadas, tomadas, interruptores e outros equipamentos de automação residencial.\n\n## Funcionalidades e arquitetura\n\nO projeto contempla:\n\n- Interface web para interação e gerenciamento do assistente.\n- Backend em Node.js para processamento e execução dos comandos.\n- Motor de interpretação de comandos locais, priorizando respostas rápidas.\n- Arquitetura para reconhecimento de voz e síntese de fala em português.\n- Integração com inteligência artificial para interpretação de solicitações mais complexas.\n- Estrutura modular para conexão com APIs e serviços de terceiros.\n- Planejamento de integração com dispositivos de automação residencial.\n- Gerenciamento de comandos e mecanismos de tratamento de falhas.\n- Possibilidade de expansão para rotinas personalizadas e cenários inteligentes.\n\n## Exemplo de utilização prevista\n\nO assistente poderá evoluir para interpretar comandos como:\n\n- \"JARVIS, acenda a luz da sala.\"\n- \"Desligue todas as luzes.\"\n- \"Ative o modo cinema.\"\n- \"Qual é a temperatura?\"\n- \"Execute minha rotina de boa noite.\"\n\nA proposta é permitir que o usuário controle sua casa por comandos naturais, sem precisar navegar por diversos aplicativos.\n\n## Tecnologias utilizadas\n\n- **Node.js:** serviços locais e backend.\n- **JavaScript, HTML e CSS:** interface e componentes web.\n- **APIs REST:** comunicação entre serviços.\n- **Inteligência Artificial:** interpretação e processamento de solicitações.\n- **Speech-to-Text e Text-to-Speech:** tecnologias para entrada e saída de voz, em configuração e validação.\n- **Integrações IoT:** arquitetura preparada para conexão com dispositivos inteligentes.\n\n## Desenvolvimento e implementação\n\nSou responsável pela arquitetura, implementação do backend, interface web, estruturação dos comandos locais e preparação das integrações com inteligência artificial e serviços externos.\n\nO projeto utiliza uma arquitetura modular para facilitar manutenção, testes e inclusão de novas funcionalidades.\n\nAtualmente, o núcleo de comandos locais e a estrutura básica da aplicação estão implementados. Os recursos de voz, a integração avançada com IA e o acionamento real de dispositivos residenciais fazem parte das etapas de evolução e validação.\n\n## Objetivo técnico\n\nDemonstrar a construção de uma solução de automação inteligente, combinando desenvolvimento full-stack, APIs, processamento de linguagem natural, serviços locais e arquitetura preparada para Internet das Coisas (IoT).\n\nO projeto também serve como base técnica para soluções personalizadas de automação residencial, assistentes corporativos e integração de sistemas com inteligência artificial.",
-"exclusivo": true,
-"habilidades": [],
-"id": "792683",
-"idade_min": 10,
-"liberado_em": 1792528192.0,
-"link": "https://www.99freelas.com.br/project/assistente-de-voz-inteligente-para-automacao-residencial-792683",
-"nivel": "Intermediário",
-"nota_guardada": 10,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 13,
-"publicado": 1792441792.0,
-"subcategoria": "Criação & Integração com IA",
-"titulo": "Assistente de voz inteligente para automação residencial",
-"urgente": false
-},
 "792686": {
 "cliente": "",
 "cliente_avaliacoes": 0,
