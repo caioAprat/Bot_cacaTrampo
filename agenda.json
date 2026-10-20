@@ -750,5 +750,31 @@
 "subcategoria": "Desenvolvimento Web",
 "titulo": "Site institucional em WordPress",
 "urgente": false
+},
+"792947": {
+"cliente": "",
+"cliente_avaliacoes": 1,
+"cliente_nota": 5.0,
+"descricao": "Estou desenvolvendo uma plataforma de ecommerce em Java com Spring Boot e preciso de alguém com experiência na integração manual de gateways de Pagamentos, de preferência com o provider do MercadoPago. O objetivo é analisar a codebase do projeto e analisar possível melhorias para refatoração.\n\n* Preciso de alguém que realmente entenda o modelo de pagamentos.\n* Preciso de alguém que tenha experiência na parte de pagamentos.",
+"exclusivo": true,
+"habilidades": [
+"Arquitetura Java",
+"Java",
+"Java Spring"
+],
+"id": "792947",
+"idade_min": 9,
+"liberado_em": 1792606100.0,
+"link": "https://www.99freelas.com.br/project/analise-de-integracao-com-mercado-pago-e-modulo-de-pagamentos-792947",
+"nivel": "Especialista",
+"nota_guardada": 9,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 3,
+"publicado": 1792519700.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Análise de integração com Mercado Pago e modulo de pagamentos",
+"urgente": false
 }
 }
