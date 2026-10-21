@@ -587,5 +587,27 @@
 "subcategoria": "Entrada de Dados",
 "titulo": "Cadastro de Produtos (Omie), Criação de Kits e Publicação de Anúncios",
 "urgente": false
+},
+"793121": {
+"cliente": "",
+"cliente_avaliacoes": 2,
+"cliente_nota": 5.0,
+"descricao": "Somos a K2On e desenvolvemos o sistema interno de um grupo de empresas do setor de distribuição. O sistema já está em produção e é usado todos os dias pela operação (vendas, faturamento, financeiro e estoque). Buscamos um desenvolvedor para assumir duas frentes:\n\n1. Manutenção mensal (recorrente)\n\n- Correção de bugs e atendimento de chamados dos usuários\n- Ajustes pequenos de telas, relatórios e regras de negócio\n- Acompanhamento das integrações (ERP, webhooks, sincronização de estoque)\n- Monitoramento básico do servidor (VPS Linux)\n\n2. Evolução do sistema (novo contrato)\n\nHá uma lista de funcionalidades já levantadas com o cliente, entre elas:\n\n- Integração com transportadoras\n- Impressão em lote de pedidos e minuta de despacho\n- Relatórios de volumetria e de margem de desconto por vendedor\n- Dashboards financeiros\n- Controle de crédito do cliente, ocorrências e avisos ao abrir o pedido\n- Permissões por recurso e por botão\n- Fluxos de trabalho diferentes por tipo de pedido\n- Revisão periódica de cadastro de clientes\n\nContexto do projeto (leia antes de orçar)\n\nMontamos duas apresentações, que usamos com o próprio cliente, com os dados identificáveis removidos:\n\n- O que já foi feito: https://deck.k2on.com/freelancer-o-que-ja-foi-feito\n- O que vai ser feito: https://deck.k2on.com/freelancer-o-que-vai-ser-feito\n\nElas dão o panorama completo do sistema atual e do escopo do próximo contrato. Use-as como base para a sua proposta.\n\nStack\n\n- Node.js + Express\n- React + TypeScript (Vite)\n- PostgreSQL\n- Redis\n- Integração com a API REST do Olist/Tiny ERP (rate limit, webhooks)\n- Deploy em VPS Linux com Git\n\nRequisitos\n\n- Experiência comprovada com Node.js, React e PostgreSQL\n- Já ter integrado com ERP ou API de terceiros (diferencial: Tiny/Olist)\n- Capacidade de ler código existente e mexer sem quebrar o que funciona\n- Comunicação clara e disponibilidade em horário comercial\n- Diferencial: experiência com NF-e, fiscal ou estoque\n\nComo será o trabalho\n\nVocê vai trabalhar em código existente, com documentação do que está feito e do que falta, e vai alinhar direto comigo. Os acessos e o ambiente de desenvolvimento são liberados após o acerto.\n\nO que preciso na sua proposta\n\nEnvie o valor nos dois formatos abaixo, separados:\n\nFormato A: projeto fechado\n\n- Valor mensal da manutenção.\n- Valor total para entregar o escopo do próximo contrato, com prazo estimado e forma de pagamento (por entrega ou parcelas).\n\nFormato B: contratação mensal\n\nValor mensal fixo, com você atuando na manutenção e no desenvolvimento do contrato. Informe:\n\n- Quantas horas por mês estão incluídas.\n- O valor escalonado por período (por exemplo, meses 1 a 3, 4 a 6 e 7 a 12), se houver mudança ao longo do tempo.\n- O valor da hora extra, caso passe das horas incluídas.\n- Se tiver preferência por um dos formatos, diga qual e por quê.\n\nPara responder, inclua também:\n\n- Link de projetos parecidos, de preferência com integração a ERP\n- Sua disponibilidade semanal\n- Como você prefere se comunicar e reportar o andamento\n\nProposta sem os dois formatos preenchidos não será considerada.",
+"exclusivo": true,
+"habilidades": [],
+"id": "793121",
+"idade_min": 6,
+"liberado_em": 1792669451.0,
+"link": "https://www.99freelas.com.br/project/desenvolvedor-full-stack-node-js-react-para-manutencao-mensal-e-evolucao-793121",
+"nivel": "Especialista",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 5,
+"publicado": 1792583051.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Desenvolvedor full stack (Node.js + React) para manutenção mensal e evolução",
+"urgente": false
 }
 }
