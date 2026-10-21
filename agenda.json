@@ -1,30 +1,4 @@
 {
-"792872": {
-"cliente": "",
-"cliente_avaliacoes": 4,
-"cliente_nota": 5.0,
-"descricao": "Somos a Be No Hub, uma rede de colivings no Rio de Janeiro (Flamengo, Glória, Lapa, Bairro de Fátima) voltada para nômades digitais, estudantes e pessoas que precisam de uma moradia prática e sem contratos longos.\n\nEstamos buscando de 2 a 3 freelancers para um projeto de 4 dias: divulgar nossas acomodações nas redes sociais.\n\nESCOPO (o que você fará):\n- Publicar posts/reels/conteúdo (Instagram, TikTok, LinkedIn, Facebook, Reddit, X) utilizando fotos e textos que forneceremos.\n- Publicar em grupos de Facebook/WhatsApp voltados para nômades, expatriados, estudantes e grupos que anunciam quartos para aluguel no Rio.\n- Captar leads qualificados (pessoas interessadas no local) via WhatsApp com link identificável.\n- Registrar cada lead em uma planilha do Google (forneceremos acesso).\n\nENTREGÁVEIS (o que você deve entregar):\n- Prints de todas as publicações feitas.\n- Planilha atualizada com os leads captados e a origem de cada um.\n- Relatório final com os resultados.\n\nPERÍODO: 4 dias consecutivos.\n\nCOMO SE CANDIDATAR:\nEnvie uma proposta contendo:\n\n1) Valor do seu trabalho;\n2) 3 exemplos de posts/reels/conteúdo que você já criou;\n3) Uma frase explicando como você captaria leads para um coliving.",
-"exclusivo": true,
-"habilidades": [
-"Facebook",
-"Instagram",
-"Linkedin"
-],
-"id": "792872",
-"idade_min": 13,
-"liberado_em": 1792592691.0,
-"link": "https://www.99freelas.com.br/project/divulgacao-digital-para-coliving-no-rio-4-dias-792872",
-"nivel": "Intermediário",
-"nota_guardada": 7,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 0,
-"publicado": 1792506291.0,
-"subcategoria": "Gestão de Mídias Sociais",
-"titulo": "Divulgação digital para coliving no Rio - 4 dias",
-"urgente": false
-},
 "792886": {
 "cliente": "",
 "cliente_avaliacoes": 0,
@@ -531,6 +505,28 @@
 "publicado": 1792590584.0,
 "subcategoria": "Desenvolvimento de Games",
 "titulo": "Painel de xit para gamer",
+"urgente": false
+},
+"793161": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Busco profissional ou equipe para criar um site de veículos integrado a um CRM para estoque, propostas, clientes e acompanhamento. Tenho vídeo e apresentação conceituais como referência visual e de fluxo; não são sistema funcional nem especificação técnica fechada.\n\nOBJETIVO\nO visitante consulta veículos e envia propostas; a equipe trata cada oportunidade no CRM. Enviar orçamento detalhado, separando MVP, opcionais, prazos e custos recorrentes.\n\n1. SITE / VITRINE\nVitrine responsiva com anúncios contendo fotos, código, marca, modelo, versão, ano, quilometragem, câmbio, combustível, disponibilidade, FIPE e preço sugerido/comercial. Incluir busca, filtros por modelo, ano, categoria e preço, página de detalhes, layout, domínio, publicação e SEO básico.\n\nCada anúncio terá botão \"Fazer proposta\", abrindo formulário com veículo selecionado, nome, telefone, e-mail e valor oferecido. A proposta deve registrar no CRM contato, veículo, valor, data, status e histórico. Códigos e preços de referência são fictícios; dados, regras de preço e campos finais serão definidos no levantamento.\n\n2. CRM, ESTOQUE E CLIENTES\nLogin e permissões para administrador, gerente e vendedor/atendente. Cadastrar e editar veículos, fotos e status, mantendo histórico. Receber propostas para aceitar, recusar ou deixar pendentes; atribuir vendedor, registrar observações e consultar histórico do cliente e do veículo.\n\nManter salvos os contatos que não fecharem negócio, organizados por responsável e status. Criar lembrete configurável após sete dias de proposta recusada ou não concluída, evitando avisos duplicados ou indevidos. Gerente e administrador poderão consultar equipe e registros conforme permissões.\n\n3. ACEITE, SINAL E RESERVA DE 48 HORAS\nApós aceite, permitir avisar o cliente e orientar pagamento de sinal configurável. Após confirmação efetiva, marcar o veículo como \"Reservado\" e iniciar 48 horas para concluir compra ou retirada. Sem confirmação, não iniciar a reserva. Ao vencer o prazo, alertar a equipe para concluir a venda ou retornar o veículo à disponibilidade.\n\nA retenção do sinal exige validação jurídica e termos aprovados, não devendo ser automática sem essa definição. Orçar separadamente instruções ou link de pagamento, gateway, confirmação automática e WhatsApp, informando dependências, tarifas, aprovações e custos mensais. Se necessário, sugerir fluxo manual.\n\n4. FIPE, IMPORTAÇÃO E PAINEL\nInformar consulta ou registro do valor FIPE com mês e ano de referência, fonte, preço, limites e condições da API, além de alternativa manual ou posterior. Orçar importação inicial por planilha, com validação e prevenção de duplicados. Painel: veículos disponíveis, reservados e vendidos; propostas recebidas, aceitas e recusadas; conversão e tarefas por vendedor. Distinguir MVP e opcionais.\n\n5. SEGURANÇA E ENTREGA\nPrever controle de acesso, backups, atualização, LGPD, hospedagem e recuperação. Confirmar código-fonte, repositório, documentação e acessos. Descrever testes, treinamento, implantação e garantia.\n\n6. INFORMAR NA PROPOSTA\n- Valores separados para levantamento, especificação, desenvolvimento e implantação.\n- Preço e prazo do MVP, priorizando vitrine, estoque, propostas no CRM, contatos atribuídos e lembrete.\n- Preços opcionais para WhatsApp, pagamento automático, FIPE e relatórios avançados.\n- Mensalidade de hospedagem, manutenção e suporte, com horas, SLA, limites e cobranças à parte.\n- Etapas demonstráveis, tecnologias sugeridas e experiência semelhante.\n- Condições de pagamento, garantia, titularidade do código e itens não incluídos.\n\nSinalizar dúvidas, riscos e dependências externas. Procuro solução utilizável em produção, construída e validada por etapas, não apenas telas. Posso enviar o vídeo e a apresentação conceituais. Aguardo proposta detalhada, com escopo, prazo, custos e premissas explícitas.",
+"exclusivo": true,
+"habilidades": [],
+"id": "793161",
+"idade_min": 3,
+"liberado_em": 1792679237.0,
+"link": "https://www.99freelas.com.br/project/crm-e-site-para-intermediacao-de-veiculos-793161",
+"nivel": "Intermediário",
+"nota_guardada": 9,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 7,
+"publicado": 1792592837.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "CRM e site para intermediação de veículos",
 "urgente": false
 }
 }
