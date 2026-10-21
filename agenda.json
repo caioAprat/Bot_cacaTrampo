@@ -488,5 +488,32 @@
 "subcategoria": "Desenvolvimento Web",
 "titulo": "Integração ERP Ubli.io com Olist, Shopify e CRM + manutenção mensal",
 "urgente": false
+},
+"793209": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Objetivo\nPreciso contratar um profissional para conferir e conciliar três anos de movimentações financeiras entre mim e outra pessoa, identificando de onde veio o dinheiro, para onde foi, como foi utilizado ou aplicado e qual o saldo final.\n\nMaterial disponível\nOs extratos das contas bancárias e dos cartões de crédito já estão integralmente lançados e organizados em planilhas. Não preciso de digitação ou planilhamento de extratos.\n\nO trabalho consiste em\nCruzar as movimentações bancárias e de cartões; identificar entradas, saídas, transferências entre contas e eventuais duplicidades; rastrear a origem e o destino dos recursos; identificar pagamentos, despesas, aplicações e resgates, quando houver; verificar quanto foi transferido à outra pessoa, quanto foi utilizado, em quê e quais valores permaneceram disponíveis; conciliar os saldos iniciais e finais e apontar diferenças ou valores sem comprovação suficiente.\n\nEntregas esperadas\n1. Planilha Excel conciliada, com identificação das operações e vínculo aos registros de origem.\n2. Demonstrativo do caminho do dinheiro (origem → transferências → uso/aplicação → saldo).\n3. Resumo dos valores transferidos, utilizados, aplicados, resgatados e dos saldos apurados.\n4. Relatório objetivo com inconsistências, lacunas de documentação e conclusões sustentadas pelos registros.\n\nPerfil e proposta\nBusco contador, auditor, perito contábil ou analista financeiro com experiência em conciliação e rastreamento de recursos. Favor informar experiência, método de trabalho, prazo e orçamento fechado. Os documentos serão compartilhados de forma confidencial após alinhamento.\n\nObservação\nO rastreamento e a conclusão devem se limitar ao que os documentos permitirem comprovar.",
+"exclusivo": true,
+"habilidades": [
+"Análise Financeira",
+"Auditoria",
+"Contabilidade",
+"Excel"
+],
+"id": "793209",
+"idade_min": 4,
+"liberado_em": 1792690632.0,
+"link": "https://www.99freelas.com.br/project/conciliacao-financeira-e-rastreamento-de-recursos-ndash-3-anos-793209",
+"nivel": "Intermediário",
+"nota_guardada": 8,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 3,
+"publicado": 1792604232.0,
+"subcategoria": "Financeiro",
+"titulo": "Conciliação financeira e rastreamento de recursos – 3 anos",
+"urgente": false
 }
 }
