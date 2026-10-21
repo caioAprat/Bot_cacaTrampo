@@ -458,5 +458,30 @@
 "subcategoria": "Teste de Software",
 "titulo": "Testagem/correção sistema (registra/emite boleto de Banco (Webservice +php)",
 "urgente": false
+},
+"793192": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Procuro profissional para criação de um site institucional em formato de landing page, voltado à apresentação e captação de clientes para serviços de cálculos trabalhistas, perícia judicial e assistência técnica.\n\nJá possuo identidade visual definida, logo, paleta de cores, conteúdo/textos e referências de layout, portanto o trabalho será principalmente de design, organização visual, construção e publicação do site.\n\nA proposta é criar um site elegante, sóbrio, profissional e responsivo, com aproximadamente 10 seções em uma única página, incluindo:\n\n- apresentação principal/hero;\n- serviços;\n- diferenciais e metodologia de trabalho;\n- seção específica sobre PJe-Calc;\n- revisão e impugnação de cálculos;\n- o que o cliente recebe;\n- apresentação profissional/sobre;\n- revisão PASEP;\n- perguntas frequentes;\n- contato e chamadas para WhatsApp.\n\nO site deverá possuir botões de WhatsApp e demais links funcionais, boa visualização tanto no computador quanto no celular e estrutura que transmita credibilidade e facilite o contato.\n\nNão haverá necessidade de e-commerce, área de login, sistema de pagamentos ou funcionalidades complexas. Trata-se essencialmente de uma landing page institucional.\n\nTenho como referência de estrutura um site que encaminharei ao profissional selecionado, além de materiais visuais que demonstram aproximadamente a estética pretendida.\n\nNa proposta, por favor informar:\n- valor total do projeto;\n- quero que seja no Canva, para que eu possa atualizar o que for necessário;\n- prazo estimado de entrega;\n- quantidade de revisões incluídas;\n- exemplos de sites/landing pages já desenvolvidos.\n\nTenho preferência por uma solução que posteriormente seja fácil de editar e atualizar por conta própria, sem depender do desenvolvedor para pequenas alterações de texto, imagens ou informações.",
+"exclusivo": true,
+"habilidades": [
+"Construção de Website",
+"Design de Website"
+],
+"id": "793192",
+"idade_min": 9,
+"liberado_em": 1792685838.0,
+"link": "https://www.99freelas.com.br/project/criador-de-sites-para-empresas-793192",
+"nivel": "Iniciante",
+"nota_guardada": 10,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 0,
+"publicado": 1792599438.0,
+"subcategoria": "Comercial",
+"titulo": "Criador de sites para empresas",
+"urgente": false
 }
 }
