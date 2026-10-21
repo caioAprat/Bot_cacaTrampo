@@ -1,32 +1,4 @@
 {
-"792870": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "A TAX Inteligência Tributária (TAX IT), consultoria tributária em Cuiabá/MT, procura desenvolvedor(a) sênior freelancer, 100% remoto, para um pacote de até 20 horas por mês (contínuo, com possibilidade de ampliar), pago por hora.\n\nEstamos desenvolvendo sistemas próprios com inteligência artificial para automatizar a análise tributária (leitura e cruzamento de arquivos fiscais, apuração de créditos, relatórios). O sócio já desenvolve parte dos sistemas com ferramentas de IA e precisa de um parceiro técnico sênior.\n\nO QUE VOCÊ VAI FAZER\n- Revisar a arquitetura e o código existentes e propor melhorias (organização, segurança, desempenho, custo).\n- Desenvolver e corrigir funcionalidades em Python (backend, automações, leitura de arquivos XML, TXT do SPED e planilhas).\n- Integrar APIs de IA / LLM (Claude, OpenAI e similares): agentes, tools, prompts, RAG.\n- Construir ou ajustar telas web e banco de dados.\n- Code review e pair programming remoto com o sócio.\n\nREQUISITOS\n- Experiência sênior em desenvolvimento (5+ anos ou portfólio equivalente).\n- Python avançado.\n- Experiência prática com APIs de IA / LLM (agentes, function calling/tools, RAG ou similares).\n- Desenvolvimento web moderno e banco de dados (SQL/Postgres ou similar).\n- Git e boas práticas (testes, documentação, segurança de dados).\n- Boa comunicação.\n\nDIFERENCIAIS\n- MCP (Model Context Protocol), Claude/Anthropic, LangChain/LlamaIndex ou frameworks de agentes.\n- Processamento de documentos (XML, TXT estruturado, PDF).\n- Projetos para área contábil/fiscal ou ERPs.\n\nFORMATO\n- Horário flexível, sem exclusividade. Alinhamentos por vídeo e WhatsApp.\n- Ensinamos a parte tributária.\n\nNA PROPOSTA, INFORME\n- Seu valor-hora.\n- Disponibilidade mensal.\n- 1 ou 2 projetos ou GitHub relevantes.\n\nPROCESSO\n1. Conversa técnica de 30 minutos.\n2. Primeiro pacote curto (5 a 10 horas) como teste remunerado.\n3. Pacote mensal contínuo.",
-"exclusivo": true,
-"habilidades": [
-"Desenvolvimento de API",
-"Desenvolvimento Web",
-"Inteligência Artificial",
-"PostgreSQL",
-"Python"
-],
-"id": "792870",
-"idade_min": 12,
-"liberado_em": 1792592120.0,
-"link": "https://www.99freelas.com.br/project/desenvolvedor-senior-python-ia-llm-para-sistemas-tributarios-por-hora-792870",
-"nivel": "Especialista",
-"nota_guardada": 9,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 8,
-"publicado": 1792505720.0,
-"subcategoria": "Criação & Integração com IA",
-"titulo": "Desenvolvedor Sênior Python + IA/LLM para sistemas tributários (por hora)",
-"urgente": false
-},
 "792872": {
 "cliente": "",
 "cliente_avaliacoes": 4,
