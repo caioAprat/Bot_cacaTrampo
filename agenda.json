@@ -1,26 +1,4 @@
 {
-"792750": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "E vários anos\n\nDescrição do projeto:\n\nProcuro profissional com experiência comprovada em auditoria financeira, conciliação de contas e análise documental para realizar um levantamento financeiro envolvendo movimentações entre duas pessoas ao longo de vários anos.\n\nEscopo do trabalho:\n\n1. Analisar extratos bancários, transferências, pagamentos e comprovantes.\n2. Organizar cronologicamente todas as movimentações.\n3. Identificar valores recebidos, pagos, transferidos e eventualmente pendentes.\n4. Conciliar os registros financeiros das duas partes.\n5. Identificar divergências, duplicidades e lançamentos sem comprovação.\n6. Elaborar planilha detalhada com datas, valores e justificativas.\n7. Apresentar relatório conclusivo com os saldos apurados e eventuais pendências.\n\nRequisitos:\n\n* Formação em Ciências Contábeis ou área financeira.\n* Experiência em conciliação financeira e auditoria.\n* Domínio de Excel.\n* Compromisso com confidencialidade.\n* Capacidade de trabalhar com documentos de vários anos.\n\nEntregáveis: planilha Excel auditável, relatório técnico em PDF e memória de cálculo.\n\nModalidade: trabalho remoto, por projeto.\n\nImportante: os documentos financeiros serão disponibilizados após a seleção do profissional e a assinatura de um compromisso de confidencialidade.",
-"exclusivo": true,
-"habilidades": [],
-"id": "792750",
-"idade_min": 7,
-"liberado_em": 1792543431.0,
-"link": "https://www.99freelas.com.br/project/contratacao-de-contador-ou-auditor-freelancer-para-conciliacao-financeira-d-792750",
-"nivel": "Intermediário",
-"nota_guardada": 8,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 0,
-"publicado": 1792457031.0,
-"subcategoria": "Contabilidade",
-"titulo": "Contratação de contador ou auditor freelancer para conciliação financeira d",
-"urgente": false
-},
 "792757": {
 "cliente": "",
 "cliente_avaliacoes": 0,
@@ -627,6 +605,28 @@
 "publicado": 1792535303.0,
 "subcategoria": "UX/UI & Web Design",
 "titulo": "Criação de front-end para SaaS no Figma",
+"urgente": false
+},
+"793047": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Preciso de um dashbourd interativo, que me traga a comparação anual e que eu consiga filtra por período metricas de top 5 motivos de devolução, top 5 motorista, top 5 colaboradores e tem outras métricas",
+"exclusivo": true,
+"habilidades": [],
+"id": "793047",
+"idade_min": 2,
+"liberado_em": 1792630097.0,
+"link": "https://www.99freelas.com.br/project/dashboard-de-analise-logistica-793047",
+"nivel": "Iniciante",
+"nota_guardada": 8,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 1,
+"publicado": 1792543697.0,
+"subcategoria": "Análise de Dados & Estatística",
+"titulo": "Dashboard de analise logística",
 "urgente": false
 }
 }
