@@ -1,26 +1,4 @@
 {
-"792893": {
-"cliente": "",
-"cliente_avaliacoes": 10,
-"cliente_nota": 5.0,
-"descricao": "Busco um desenvolvedor experiente em inteligência artificial, agentes autônomos e automação de processos para desenvolver um módulo de editoração inteligente integrado a uma plataforma LMS existente.\n\nObjetivo do projeto\n\nCriar uma editora digital automatizada, capaz de pesquisar, selecionar, produzir, organizar e atualizar continuamente uma biblioteca de minicursos e microaulas para capacitação de profissionais do varejo, especialmente o público operacional, com diferentes níveis de escolaridade e familiaridade com tecnologia.\n\nFuncionamento esperado\n\nO módulo deverá operar como uma linha de produção editorial, utilizando agentes de IA especializados em diferentes etapas:\n\n- Pesquisa: identificar temas relevantes, tendências, mudanças de mercado e necessidades de capacitação.\n- Curadoria: analisar, classificar e priorizar os temas que devem virar conteúdo.\n- Produção: criar minicursos, microaulas, materiais de apoio, exercícios e avaliações.\n- Revisão: verificar qualidade, clareza, precisão e adequação ao público-alvo.\n- Organização: categorizar e publicar os cursos aprovados na biblioteca geral.\n\nDiversidade e atualização dos conteúdos\n\nA biblioteca deverá ser ampla, dinâmica e continuamente renovada, contemplando conhecimentos técnicos e profissionais, procedimentos operacionais, atendimento ao cliente, vendas, liderança, comunicação, relacionamento interpessoal, segurança, tecnologia, inteligência emocional, soft skills e conhecimentos gerais.\n\nOs conteúdos deverão utilizar linguagem simples, didática, prática e acessível, com aulas curtas e aplicáveis à rotina profissional. A editora deverá identificar continuamente oportunidades para novos cursos e atualizar conteúdos existentes conforme a relevância e a atualidade dos temas.\n\nBiblioteca geral e seleção pelas empresas\n\nTodos os cursos aprovados serão disponibilizados em uma biblioteca geral centralizada. Cada empresa contratante poderá acessar o catálogo e selecionar livremente quais cursos deseja adicionar à sua própria biblioteca, disponibilizando-os aos funcionários.\n\nCada empresa deverá ter autonomia para escolher um, vários ou todos os cursos disponíveis, sem interferir na seleção das demais empresas.\n\nRequisitos técnicos\n\n- Integração com a arquitetura e os recursos da plataforma LMS existente.\n- Utilização de agentes de IA com funções específicas e fluxo automatizado de produção.\n- Painel para acompanhamento das etapas, status e qualidade dos conteúdos.\n- Biblioteca organizada por categorias, com pesquisa e filtros.\n- Controle de aprovação, rastreabilidade e atualização dos cursos.\n- Arquitetura escalável, preparada para produção contínua e controle de custos.\n\nPara se candidatar\n\nÉ necessário apresentar experiência comprovada em agentes de IA, automação inteligente e geração de conteúdo educacional. Informe a solução técnica proposta, projetos semelhantes, prazo e orçamento estimado para o desenvolvimento do MVP.",
-"exclusivo": true,
-"habilidades": [],
-"id": "792893",
-"idade_min": 4,
-"liberado_em": 1792595826.0,
-"link": "https://www.99freelas.com.br/project/desenvolvimento-de-editora-inteligente-de-cursos-com-ia-792893",
-"nivel": "Iniciante",
-"nota_guardada": 8,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 6,
-"publicado": 1792509426.0,
-"subcategoria": "Criação & Integração com IA",
-"titulo": "Desenvolvimento de editora inteligente de cursos com IA",
-"urgente": false
-},
 "792903": {
 "cliente": "",
 "cliente_avaliacoes": 0,
