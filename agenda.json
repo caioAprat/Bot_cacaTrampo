@@ -1,26 +1,4 @@
 {
-"792907": {
-"cliente": "",
-"cliente_avaliacoes": 0,
-"cliente_nota": 0.0,
-"descricao": "Sobre o projeto:\nSomos uma consolidadora de viagens e queremos desenvolver uma ferramenta própria de automação de navegador para coletar dados públicos de disponibilidade e preço de passagens aéreas, para uso interno em nosso portal de agências.\n\nEscopo técnico:\n- Automação de navegador (Playwright ou Puppeteer) para consultar disponibilidade em portais de companhias aéreas e programas de fidelidade aérea\n- Retorno padronizado (JSON): origem, destino, data, classe, valor, taxas, disponibilidade\n- Sistema de filas para rodar múltiplas consultas em paralelo (Redis/Celery ou similar)\n- Gerenciamento de sessões e contas de consulta\n- API REST simples para integração com nosso sistema interno\n- Cache de resultados por tempo curto\n\nO que buscamos no profissional:\n- Experiência comprovada com automação de navegador e coleta de dados em larga escala\n- Conhecimento em Playwright, Puppeteer ou Selenium\n- Experiência com gerenciamento de sessões, filas e infraestrutura escalável\n- Portfólio de projetos similares (será avaliado com atenção)\n\nFormato: projeto inicial (MVP com um único portal/fonte primeiro) + possibilidade de contrato continuado para manutenção.\n\nNa proposta, inclua:\n1. Experiência prévia com automação de coleta de dados em sites de alto tráfego/proteção\n2. Stack técnica que utilizaria\n3. Estimativa de prazo para o MVP\n4. Valor do projeto inicial e valor mensal de manutenção\n\nDetalhes específicos (quais portais, volume, etc.) serão compartilhados em conversa privada com os interessados.",
-"exclusivo": true,
-"habilidades": [],
-"id": "792907",
-"idade_min": 22,
-"liberado_em": 1792602630.0,
-"link": "https://www.99freelas.com.br/project/desenvolvedor-a-para-sistema-de-automacao-e-coleta-de-dados-de-dis-792907",
-"nivel": "Intermediário",
-"nota_guardada": 10,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 18,
-"publicado": 1792516230.0,
-"subcategoria": "Outra - Web, Mobile & Software",
-"titulo": "Desenvolvedor(a) para sistema de automação e coleta de dados de dis",
-"urgente": false
-},
 "792932": {
 "cliente": "",
 "cliente_avaliacoes": 1,
@@ -482,6 +460,33 @@
 "publicado": 1792599438.0,
 "subcategoria": "Comercial",
 "titulo": "Criador de sites para empresas",
+"urgente": false
+},
+"793199": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Procuro um desenvolvedor para integrar meu ERP Ubli.io com:\n\n- Olist e Shopify: importar os pedidos para o ERP, sincronizar estoque e preço do ERP para os canais e devolver nota fiscal e rastreio aos canais.\n- Meu CRM: enviar clientes e pedidos do ERP para o CRM (detalhes passo na conversa).\n\nRequisitos:\n- Experiência comprovada com APIs REST e webhooks, de preferência já tendo trabalhado com Olist e Shopify.\n- Avaliar a API do Ubli.io antes de fechar o orçamento.\n- Registro de erros (logs) e aviso quando uma sincronização falhar.\n- Documentação simples do que foi feito.\n\nManutenção mensal (contrato recorrente): monitoramento, correção de falhas, adaptação quando alguma API mudar e pequenos ajustes.\n\nNa proposta, informe: o valor da integração, o valor mensal da manutenção, o prazo e projetos parecidos que você já fez.",
+"exclusivo": true,
+"habilidades": [
+"Desenvolvimento de API",
+"Desenvolvimento Shopify",
+"Integração de Dados",
+"Integração de Ecommerce"
+],
+"id": "793199",
+"idade_min": 9,
+"liberado_em": 1792688959.0,
+"link": "https://www.99freelas.com.br/project/integracao-erp-ubli-io-com-olist-shopify-e-crm-manutencao-mensal-793199",
+"nivel": "Intermediário",
+"nota_guardada": 9,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 0,
+"publicado": 1792602559.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Integração ERP Ubli.io com Olist, Shopify e CRM + manutenção mensal",
 "urgente": false
 }
 }
