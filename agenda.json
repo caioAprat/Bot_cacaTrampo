@@ -1,26 +1,4 @@
 {
-"792768": {
-"cliente": "",
-"cliente_avaliacoes": 1,
-"cliente_nota": 5.0,
-"descricao": "Preciso de um Contador Judicial\n\n* Experiência com cálculos judiciais no sistema PROJEFWEB;\n* Conhecimento do Manual de Cálculos da Justiça Federal;\n* Experiência com cálculos em ações de superendividamento.\nOs interessados deverão enviar suas propostas com a descrição dos serviços oferecidos e os respectivos valores.\n\nDúvidas e propostas pelo WhatsApp: (96) 98123-1540",
-"exclusivo": true,
-"habilidades": [],
-"id": "792768",
-"idade_min": 482,
-"liberado_em": 1792548449.0,
-"link": "https://www.99freelas.com.br/project/calculos-judiciais-no-sistema-projefweb-792768",
-"nivel": "Iniciante",
-"nota_guardada": 8,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 1,
-"publicado": 1792462049.0,
-"subcategoria": "Financeiro",
-"titulo": "Cálculos judiciais no sistema PROJEFWEB",
-"urgente": false
-},
 "792804": {
 "cliente": "",
 "cliente_avaliacoes": 0,
@@ -605,6 +583,31 @@
 "publicado": 1792543697.0,
 "subcategoria": "Análise de Dados & Estatística",
 "titulo": "Dashboard de analise logística",
+"urgente": false
+},
+"793066": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Estou desenvolvendo um sistema web de gestão de ordens de serviço para empresas de manutenção e assistência técnica.\n\nO frontend já está desenvolvido e o backend possui parte das funcionalidades implementadas. Preciso de um desenvolvedor para dar continuidade ao projeto, finalizar as funcionalidades pendentes e realizar a integração completa com o frontend.\n\nPrincipais requisitos:\n- Finalizar o gerenciamento de ordens de serviço.\n- Implementar o cadastro e gerenciamento de clientes.\n- Finalizar a gestão de empresas, usuários e permissões.\n- Implementar o gerenciamento de produtos e serviços.\n- Implementar orçamentos e controle de valores.\n- Finalizar os endpoints do dashboard.\n- Integrar o backend ao frontend existente.\n- Corrigir bugs e implementar validações e regras de negócio.\n\nO objetivo é entregar um MVP funcional, aproveitando a estrutura e o código já existentes, sem necessidade de desenvolver o sistema do zero.",
+"exclusivo": true,
+"habilidades": [
+"Java",
+"Java Spring"
+],
+"id": "793066",
+"idade_min": 465,
+"liberado_em": 1792635574.0,
+"link": "https://www.99freelas.com.br/project/finalizar-projeto-de-gestao-de-ordens-de-servico-793066",
+"nivel": "Intermediário",
+"nota_guardada": 7,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 21,
+"publicado": 1792549174.0,
+"subcategoria": "Desenvolvimento Web",
+"titulo": "Finalizar projeto de gestão de ordens de serviço",
 "urgente": false
 }
 }
