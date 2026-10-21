@@ -1,29 +1,4 @@
 {
-"792805": {
-"cliente": "",
-"cliente_avaliacoes": 5,
-"cliente_nota": 5.0,
-"descricao": "Configurar sistema de recebimento (Pix automático, cartão) dentro do site, configurar e-mail de recuperação de senha e cadastro com validação de e-mail.",
-"exclusivo": true,
-"habilidades": [
-"PHP",
-"PHP Slim"
-],
-"id": "792805",
-"idade_min": 10,
-"liberado_em": 1792581677.0,
-"link": "https://www.99freelas.com.br/project/configuracao-de-site-em-php-792805",
-"nivel": "Iniciante",
-"nota_guardada": 7,
-"orcamento": null,
-"pagamento_verificado": false,
-"plataforma": "99Freelas",
-"propostas": 17,
-"publicado": 1792495277.0,
-"subcategoria": "Desenvolvimento Web",
-"titulo": "Configuração de site em PHP",
-"urgente": false
-},
 "792824": {
 "cliente": "",
 "cliente_avaliacoes": 0,
@@ -586,6 +561,31 @@
 "publicado": 1792549174.0,
 "subcategoria": "Desenvolvimento Web",
 "titulo": "Finalizar projeto de gestão de ordens de serviço",
+"urgente": false
+},
+"793120": {
+"cliente": "",
+"cliente_avaliacoes": 0,
+"cliente_nota": 0.0,
+"descricao": "Estamos em busca de um freelancer organizado, detalhista e comprometido para nos auxiliar na atualização de cadastro do nosso catálogo de produtos no ERP Omie e no gerenciamento de anúncios no Mercado Livre.\n\nO trabalho é 100% remoto, digital e com horário totalmente flexível, permitindo que você organize seu tempo como preferir, desde que cumpra os prazos e metas combinadas.\n\nPrincipais Responsabilidades:\nERP Omie:\n\nAtualização cadastral de produtos (preenchimento/revisão de NCM, peso, dimensões, preços, descrições e imagens).\n\nCriação, configuração e organização de Kits / Combos de produtos no sistema.\n\nNós utilizamos uma interface do próprio sistema Omie para criação de anúncios em massa no Mercado Livre, então o trabalho no ML será:\n\nRevisão e otimização de anúncios.\n\nVínculo e sincronização correta entre os anúncios do Mercado Livre e os produtos/kits do Omie.\n\nRequisitos e Perfil Desejado:\nExperiência prévia (ou bom domínio) no ERP Omie.\n\nExperiência em cadastro de anúncios no Mercado Livre.\n\nConhecimento sobre estruturação de kits/combos e vinculação via ERP/Integrador.\n\nBoa comunicação visual (organização de fotos) e escrita para descrições de produtos.\n\nAtenção extrema aos detalhes (evitar erros em NCM, preços e descrições).\n\nAutonomia e responsabilidade com entregas/prazos.\n\nDiferenciais:\nConhecimento em regras fiscais básicas para E-commerce (NCM, CST/CSOSN).\n\nExperiência com boas práticas de SEO para títulos no Mercado Livre.\n\nComo funcionará o trabalho:\nModelo: 100% Remoto e Digital.\n\nHorário: Totalmente flexível (você define seus horários de trabalho).\n\nModalidade de Pagamento: Aceitamos propostas por valor fixo pelo projeto/lote de cadastros ou por hora trabalhada (a combinar).\n\nComo se candidatar:\nAo enviar sua proposta, por favor responda às seguintes perguntas:\n\nQual é o seu nível de experiência com o ERP Omie e com o Mercado Livre?\n\nVocê já trabalhou criando e vinculando kits/combos de produtos entre o Omie e o Mercado Livre?\n\nQual é a sua disponibilidade de horas semanais?\n\nEnvie exemplos ou breve resumo de trabalhos semelhantes que já realizou.",
+"exclusivo": true,
+"habilidades": [
+"eCommerce",
+"ERP"
+],
+"id": "793120",
+"idade_min": 3,
+"liberado_em": 1792668405.0,
+"link": "https://www.99freelas.com.br/project/cadastro-de-produtos-omie-criacao-de-kits-e-publicacao-de-anuncios-793120",
+"nivel": "Iniciante",
+"nota_guardada": 8,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 0,
+"publicado": 1792582005.0,
+"subcategoria": "Entrada de Dados",
+"titulo": "Cadastro de Produtos (Omie), Criação de Kits e Publicação de Anúncios",
 "urgente": false
 }
 }
