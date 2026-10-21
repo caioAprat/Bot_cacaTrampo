@@ -515,5 +515,27 @@
 "subcategoria": "Financeiro",
 "titulo": "Conciliação financeira e rastreamento de recursos – 3 anos",
 "urgente": false
+},
+"793211": {
+"cliente": "",
+"cliente_avaliacoes": 4,
+"cliente_nota": 4.94,
+"descricao": "Ajustar uma função no código de uma calculadora financeira (o código está em Python). Preciso recalcular um valor; é necessário corrigir a função responsável pelo cálculo para que ela retorne o resultado esperado.",
+"exclusivo": true,
+"habilidades": [],
+"id": "793211",
+"idade_min": 2,
+"liberado_em": 1792691321.0,
+"link": "https://www.99freelas.com.br/project/corrigir-funcao-de-calculo-em-calculadora-financeira-python-793211",
+"nivel": "Iniciante",
+"nota_guardada": 8,
+"orcamento": null,
+"pagamento_verificado": false,
+"plataforma": "99Freelas",
+"propostas": 4,
+"publicado": 1792604921.0,
+"subcategoria": "Desenvolvimento Desktop",
+"titulo": "Corrigir função de cálculo em calculadora financeira (Python)",
+"urgente": false
 }
 }
